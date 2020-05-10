@@ -1,0 +1,603 @@
+,Symbol,Owner,Relationship,Date,Cost,# Shares,Value($),Total Shares,Filing,Type
+1,CC,Newman Mark,Senior VP & COO,"May 07, 2020",$11.62,2500,29048,133344,"May 08, 2020, 09:57 PM",buy
+2,CATC,Palandjian Leon Aghababai,Director,"May 06, 2020",$49.48,2000,98960,12957,"May 08, 2020, 08:11 PM",buy
+3,GEO,ZOLEY GEORGE C,Chairman & CEO,"May 07, 2020",$11.44,50000,571905,50000,"May 08, 2020, 07:25 PM",buy
+4,GEO,ZOLEY GEORGE C,Chairman & CEO,"May 06, 2020",$11.24,150000,1685280,2750000,"May 08, 2020, 07:25 PM",buy
+5,GEO,ZOLEY GEORGE C,Chairman & CEO,"May 07, 2020",$11.42,50000,571090,50000,"May 08, 2020, 07:25 PM",buy
+6,MED,BROWN JEFFREY J,Director,"Feb 05, 2019",$129.49,59,7640,10273,"May 08, 2020, 07:02 PM",buy
+7,MED,BROWN JEFFREY J,Director,"Feb 08, 2018",$66.91,72,4818,10118,"May 08, 2020, 07:02 PM",buy
+8,MED,BROWN JEFFREY J,Director,"Nov 05, 2019",$112.31,69,7749,10472,"May 08, 2020, 07:02 PM",buy
+9,MED,BROWN JEFFREY J,Director,"Nov 08, 2018",$157.00,30,4710,10214,"May 08, 2020, 07:02 PM",buy
+10,MED,BROWN JEFFREY J,Director,"Nov 09, 2017",$70.35,45,3166,10045,"May 08, 2020, 07:02 PM",buy
+11,MED,BROWN JEFFREY J,Director,"Aug 05, 2019",$98.94,78,7717,10403,"May 08, 2020, 07:02 PM",buy
+12,MED,BROWN JEFFREY J,Director,"Aug 08, 2018",$199.53,24,4789,10184,"May 08, 2020, 07:02 PM",buy
+13,MED,BROWN JEFFREY J,Director,"May 06, 2020",$72.42,409,29620,26633,"May 08, 2020, 07:02 PM",buy
+14,MED,BROWN JEFFREY J,Director,"May 03, 2019",$150.06,51,7653,10325,"May 08, 2020, 07:02 PM",buy
+15,MED,BROWN JEFFREY J,Director,"May 08, 2018",$116.43,42,4890,10159,"May 08, 2020, 07:02 PM",buy
+16,MED,BROWN JEFFREY J,Director,"Feb 04, 2020",$101.93,116,11824,10588,"May 08, 2020, 07:02 PM",buy
+17,FUSB,BRIGGS ROBERT S,Director,"May 07, 2020",$7.62,3091,23553,25428,"May 08, 2020, 06:24 PM",buy
+18,ESCA,Glazer Walter P. Jr.,Director,"May 08, 2020",$8.05,3744,30139,189942,"May 08, 2020, 05:58 PM",buy
+19,ESCA,Glazer Walter P. Jr.,Director,"May 07, 2020",$7.88,10495,82669,186198,"May 08, 2020, 05:58 PM",buy
+20,ESCA,Glazer Walter P. Jr.,Director,"May 06, 2020",$7.60,1244,9454,175703,"May 08, 2020, 05:58 PM",buy
+21,NANX,WHITMORE R JANET,Director,"May 06, 2020",$0.29,15000,4400,1315986,"May 08, 2020, 05:46 PM",buy
+22,BOCH,Sundquist James A,EVP Chief Financial Officer,"May 07, 2020",$7.00,2500,17500,151528,"May 08, 2020, 05:44 PM",buy
+23,ESXB,Hardy William E.,Director,"May 06, 2020",$5.34,250,1335,35587,"May 08, 2020, 05:34 PM",buy
+24,UNTY,DALLAS ROBERT H II,Director,"May 06, 2020",$14.10,2500,35250,1735307,"May 08, 2020, 05:31 PM",buy
+25,UNTY,DALLAS ROBERT H II,Director,"May 08, 2020",$14.54,2500,36350,1737807,"May 08, 2020, 05:31 PM",buy
+26,UNTY,DALLAS DAVID D,Director,"May 08, 2020",$14.54,2500,36350,1737807,"May 08, 2020, 05:29 PM",buy
+27,UNTY,DALLAS DAVID D,Director,"May 06, 2020",$14.10,2500,35250,1735307,"May 08, 2020, 05:29 PM",buy
+28,CZWI,Olson Timothy L,Director,"May 06, 2020",$7.89,620,4892,10009,"May 08, 2020, 05:24 PM",buy
+29,CZWI,Bianchi Stephen M,CEO and President,"May 08, 2020",$8.25,200,1650,35841,"May 08, 2020, 05:24 PM",buy
+30,CZWI,Bianchi Stephen M,CEO and President,"May 08, 2020",$8.15,200,1630,39692,"May 08, 2020, 05:24 PM",buy
+31,CZWI,MCHUGH RICHARD,Director,"May 08, 2020",$8.00,2000,16000,183963,"May 08, 2020, 05:24 PM",buy
+32,CZWI,Bourget Kristina M,Director,"May 08, 2020",$8.00,624,4992,8603,"May 08, 2020, 05:23 PM",buy
+33,XELB,D LOREN ROBERT W,CEO & Chairman,"May 08, 2020",$0.73,4500,3285,1405779,"May 08, 2020, 05:21 PM",buy
+34,XELB,D LOREN ROBERT W,CEO & Chairman,"May 07, 2020",$0.72,3984,2868,1401279,"May 08, 2020, 05:21 PM",buy
+35,XELB,D LOREN ROBERT W,CEO & Chairman,"May 06, 2020",$0.63,3504,2208,1397295,"May 08, 2020, 05:21 PM",buy
+36,STXB,BEALL ROBERT S,Director,"May 06, 2020",$10.05,10000,100500,122106,"May 08, 2020, 05:19 PM",buy
+37,VRT,Flannery Colin,General Counsel & Secretary,"May 07, 2020",$11.19,45450,508585,63275,"May 08, 2020, 05:14 PM",buy
+38,AHH,Haddad Louis S,"President, CEO","May 06, 2020",$18.94,5000,94700,10000,"May 08, 2020, 05:05 PM",buy
+39,ISIG,"Funicular Fund, LP",10% Owner,"May 07, 2020",$0.64,49,31,1518816,"May 08, 2020, 05:02 PM",buy
+40,ARCC,ROLL PENELOPE F,Chief Financial Officer,"May 06, 2020",$13.28,500,6640,59805,"May 08, 2020, 05:00 PM",buy
+41,UFI,LANGONE KENNETH G,Director,"May 07, 2020",$11.48,3800,43624,1413800,"May 08, 2020, 05:00 PM",buy
+42,UFI,Bishop Robert J,Director,"May 08, 2020",$11.85,10000,118500,1649240,"May 08, 2020, 05:00 PM",buy
+43,HCAP,Jolson Joseph A,Chief Executive Officer,"May 07, 2020",$3.97,1774,7043,817108,"May 08, 2020, 04:59 PM",buy
+44,ACGL,Posner Brian S,Director,"May 06, 2020",$23.72,1000,23718,92685,"May 08, 2020, 04:57 PM",buy
+45,LOB,SALYERS DAVID G,Director,"May 06, 2020",$12.50,2000,25000,4100,"May 08, 2020, 04:56 PM",buy
+46,CFG,HANKOWSKY WILLIAM P,Director,"May 07, 2020",$21.25,165,3506,51508,"May 08, 2020, 04:55 PM",buy
+47,HBIO,Green James W,Chief Executive Officer,"May 07, 2020",$2.53,10000,25300,1512445,"May 08, 2020, 04:49 PM",buy
+48,PMBC,Sinclair Maxwell,"EVP, Chief Compliance Officer","May 08, 2020",$3.81,4588,17484,41992,"May 08, 2020, 04:48 PM",buy
+49,EQBK,Sorensen Harvey R,Director,"May 06, 2020",$16.27,1000,16270,12833,"May 08, 2020, 04:48 PM",buy
+50,JRVR,Abram J Adam,Chief Executive Officer,"May 07, 2020",$31.86,15384,490076,470616,"May 08, 2020, 04:48 PM",buy
+51,TEX,SHEEHAN JOHN D,"Senior Vice President, CFO","May 07, 2020",$13.68,831,11368,272994,"May 08, 2020, 04:39 PM",buy
+52,TEX,GEORGE AMY,Senior V.P. Human Resources,"May 07, 2020",$13.68,336,4596,124031,"May 08, 2020, 04:39 PM",buy
+53,ITW,LENNY RICHARD H,Director,"May 06, 2020",$159.19,1575,250724,14506,"May 08, 2020, 04:35 PM",buy
+54,ITW,SANTI ERNEST SCOTT,Chairman & CEO,"May 06, 2020",$158.42,6300,998046,141994,"May 08, 2020, 04:33 PM",buy
+55,JMP,Wright Thomas Rowe,Director of Equities,"May 08, 2020",$2.63,1500,3952,404910,"May 08, 2020, 04:28 PM",buy
+56,JMP,Wright Thomas Rowe,Director of Equities,"May 07, 2020",$2.61,3300,8599,403410,"May 08, 2020, 04:28 PM",buy
+57,NWIN,Johnson Robert E. III,Director,"May 07, 2020",$30.99,200,6198,1481,"May 08, 2020, 04:22 PM",buy
+58,NWIN,CERVEN LEANE ENGLISH,Executive Vice President,"May 07, 2020",$30.99,100,3099,800,"May 08, 2020, 04:20 PM",buy
+59,NWIN,CERVEN LEANE ENGLISH,Executive Vice President,"May 07, 2020",$30.99,1000,30990,7157,"May 08, 2020, 04:20 PM",buy
+60,ASPS,"Deer Park Road Management Company, LP",10% Owner,"May 06, 2020",$6.88,48456,333547,3488300,"May 08, 2020, 04:20 PM",buy
+61,ASPS,"Deer Park Road Management Company, LP",10% Owner,"May 07, 2020",$6.71,82723,555071,3571023,"May 08, 2020, 04:20 PM",buy
+62,DORM,GAVIN JOHN J,Director,"May 06, 2020",$60.90,1641,99943,7512,"May 08, 2020, 04:19 PM",buy
+63,RESI,"Deer Park Road Management Company, LP",10% Owner,"May 07, 2020",$6.82,500,3408,6749859,"May 08, 2020, 04:19 PM",buy
+64,RESI,"Deer Park Road Management Company, LP",10% Owner,"May 06, 2020",$6.95,100000,694600,6749359,"May 08, 2020, 04:19 PM",buy
+65,AIG,JURGENSEN WILLIAM G,Director,"May 06, 2020",$24.10,20000,481966,35000,"May 08, 2020, 04:18 PM",buy
+66,SYNL,Cunningham Sarah M,VP Corporate Administration,"May 07, 2020",$8.05,736,5925,5736,"May 08, 2020, 04:14 PM",buy
+67,CHCT,GULMI CLAIRE M,Director,"May 07, 2020",$38.81,2500,97025,9537,"May 08, 2020, 04:14 PM",buy
+68,CHCT,Hensley Robert Z,Director,"May 07, 2020",$38.02,2630,100005,38002,"May 08, 2020, 04:13 PM",buy
+69,SYNL,Loughran Dennis M,Sr. Vice President and CFO,"May 07, 2020",$7.88,2500,19695,83463,"May 08, 2020, 04:10 PM",buy
+70,JMP,Jolson Joseph A,CEO,"May 07, 2020",$2.59,2958,7674,5190479,"May 08, 2020, 04:07 PM",buy
+71,JMP,Jolson Joseph A,CEO,"May 06, 2020",$2.51,4000,10039,5187521,"May 08, 2020, 04:07 PM",buy
+72,DRIO,STERN ADAM K,Director,"May 07, 2020",$6.66,639,4256,16271,"May 08, 2020, 04:06 PM",buy
+73,ORCC,Packer Craig,President and CEO,"May 07, 2020",$13.17,75750,997628,141483,"May 08, 2020, 04:05 PM",buy
+74,NURO,Gozani Shai,President & CEO,"May 08, 2020",$2.07,1000,2070,21380,"May 08, 2020, 04:02 PM",buy
+75,ATRO,FRISBY JEFFRY D,Director,"May 07, 2020",$8.00,4100,32800,6322,"May 08, 2020, 04:02 PM",buy
+76,WYND,Brown Michael Dean,See Remarks,"May 08, 2020",$25.07,4000,100272,74523,"May 08, 2020, 04:02 PM",buy
+77,VOXX,Kahli Beat,10% Owner,"May 07, 2020",$5.06,100000,505750,3336963,"May 08, 2020, 04:00 PM",buy
+78,VOXX,Kahli Beat,10% Owner,"May 06, 2020",$4.99,75000,374250,3236963,"May 08, 2020, 04:00 PM",buy
+79,COLB,EERKES CRAIG D,Director,"May 07, 2020",$22.93,1000,22930,14224,"May 08, 2020, 03:48 PM",buy
+80,BHLB,Prescott Wm Gordon,EVP and General Counsel,"May 07, 2020",$12.08,41,495,1129,"May 08, 2020, 03:48 PM",buy
+81,GDL,GABELLI MARIO J,Director,"May 07, 2020",$8.12,5638,45788,2514879,"May 08, 2020, 03:48 PM",buy
+82,GDL,GABELLI MARIO J,Director,"May 06, 2020",$8.16,1021,8331,2509241,"May 08, 2020, 03:48 PM",buy
+83,TWIN,RAYBURN DAVID B,Director,"May 07, 2020",$6.24,2500,15608,63793,"May 08, 2020, 03:48 PM",buy
+84,TWIN,RAYBURN DAVID B,Director,"May 06, 2020",$6.49,7500,48701,61293,"May 08, 2020, 03:48 PM",buy
+85,EFSI,MILLESON JOHN R,Director,"May 07, 2020",$26.65,260,6929,125351,"May 08, 2020, 03:44 PM",buy
+86,BHLB,MAHONEY CORNELIUS D,Director,"May 07, 2020",$11.92,1000,11917,19840,"May 08, 2020, 03:27 PM",buy
+87,BHLB,DAVIES JOHN B,Director,"May 07, 2020",$11.90,1170,13918,14700,"May 08, 2020, 03:23 PM",buy
+88,PFHO,KUBOTA TOM,CEO & President,"May 07, 2020",$1.25,580,725,7870000,"May 08, 2020, 03:09 PM",buy
+89,PFHO,KUBOTA TOM,CEO & President,"May 06, 2020",$1.20,420,503,7869420,"May 08, 2020, 03:09 PM",buy
+90,AXDX,SCHULER JACK W,Director,"May 06, 2020",$10.00,10868,108680,14709942,"May 08, 2020, 03:00 PM",buy
+91,LPX,Macadam Stephen E.,Director,"May 07, 2020",$20.96,5000,104800,9754,"May 08, 2020, 02:48 PM",buy
+92,TDG,HENNESSY SEAN P,Director,"May 08, 2020",$346.45,2000,692892,33814,"May 08, 2020, 02:41 PM",buy
+93,SGU,McDonald Joseph R,Chief Customer Officer,"May 07, 2020",$7.67,1000,7670,6500,"May 08, 2020, 02:34 PM",buy
+94,STFC,Garland Kim Burton,Senior Vice President,"May 07, 2020",$21.26,14786,314350,109767,"May 08, 2020, 02:26 PM",buy
+95,GNTY,Jacobson Shalene A.,Senior VP & Chief Risk Officer,"May 06, 2020",$24.00,100,2400,1100,"May 08, 2020, 02:06 PM",buy
+96,LBAI,Hanson James E. II,Director,"May 07, 2020",$10.66,1380,14711,13417,"May 08, 2020, 01:43 PM",buy
+97,LBAI,Gragnolati Brian,Director,"May 07, 2020",$10.65,1000,10645,3201,"May 08, 2020, 01:42 PM",buy
+98,AROC,Thode Eric W,SR VICE PRESIDENT,"May 07, 2020",$4.55,530,2412,1950,"May 08, 2020, 01:40 PM",buy
+99,ONB,Ryan James C III,CHAIRMAN & CEO,"May 08, 2020",$12.91,3800,49058,6800,"May 08, 2020, 01:39 PM",buy
+100,ROCHU,Rothstein Adam,Director,"May 07, 2020",$10.00,5000,50000,47829,"May 08, 2020, 12:21 PM",buy
+101,ROCHU,Rothstein Adam,Director,"May 05, 2020",$9.92,5000,49600,42829,"May 08, 2020, 12:21 PM",buy
+1,ROCHU,Rothstein Adam,Director,"May 07, 2020",$10.00,5000,50000,47829,"May 08, 2020, 12:21 PM",buy
+2,ROCHU,Rothstein Adam,Director,"May 05, 2020",$9.92,5000,49600,42829,"May 08, 2020, 12:21 PM",buy
+3,TPL,HORIZON KINETICS ASSET MANAGEMENT LLC,10% Owner,"May 07, 2020",$493.03,8,3944,319652,"May 08, 2020, 12:03 PM",buy
+4,MBCN,Cook Adam T,Senior Vice President,"May 06, 2020",$17.25,325,5606,325,"May 08, 2020, 11:54 AM",buy
+5,RBKB,Irwin William C.,Director,"May 07, 2020",$7.65,3000,22937,10480,"May 08, 2020, 11:32 AM",buy
+6,FMO,TOUPIN RONALD E JR,Director,"May 08, 2020",$1.83,1932,3536,8912,"May 08, 2020, 11:24 AM",buy
+7,FRAF,Henry Timothy G,CEO,"May 06, 2020",$30.00,33,990,6282,"May 08, 2020, 10:49 AM",buy
+8,BRKL,Fitzgerald Margaret Boles,Director,"May 07, 2020",$9.27,1000,9270,24000,"May 08, 2020, 10:44 AM",buy
+9,FNLC,Rosborough Mark N,Director,"May 07, 2020",$19.87,1000,19870,130425,"May 08, 2020, 10:35 AM",buy
+10,FMO,TOUPIN RONALD E JR,Director,"May 07, 2020",$1.78,568,1011,6980,"May 08, 2020, 10:26 AM",buy
+11,MLHR,VOLKEMA MICHAEL A,Director,"May 07, 2020",$21.94,25000,548453,100000,"May 08, 2020, 09:50 AM",buy
+12,CHMG,Tomson Anders,President & CEO,"May 07, 2020",$25.14,2000,50281,25139,"May 08, 2020, 09:15 AM",buy
+13,AL,LARSEN MARSHALL O,Director,"Nov 01, 2018",$39.02,131,5112,24643,"May 08, 2020, 09:09 AM",buy
+14,AL,LARSEN MARSHALL O,Director,"Oct 15, 2018",$42.10,250,10525,24512,"May 08, 2020, 09:09 AM",buy
+15,OPK,FROST PHILLIP MD ET AL,CEO & Chairman,"May 07, 2020",$2.08,400000,831606,189671694,"May 08, 2020, 07:45 AM",buy
+16,STL,Giambrone Robert,Director,"May 05, 2020",$11.40,1000,11400,2500,"May 07, 2020, 09:42 PM",buy
+17,ESXB,PUTNAM EUGENE S JR,Director,"May 06, 2020",$5.25,2000,10500,66426,"May 07, 2020, 09:00 PM",buy
+18,ESXB,PUTNAM EUGENE S JR,Director,"May 05, 2020",$5.50,1000,5497,2000,"May 07, 2020, 09:00 PM",buy
+19,CWBC,BARTLEIN ROBERT,Director,"May 07, 2020",$6.71,849,5697,572525,"May 07, 2020, 08:29 PM",buy
+20,CWBC,BARTLEIN ROBERT,Director,"May 06, 2020",$6.67,20,133,571676,"May 07, 2020, 08:29 PM",buy
+21,GFN,BARIBAULT WILLIAM H,Director,"May 07, 2020",$5.13,1200,6159,41048,"May 07, 2020, 07:45 PM",buy
+22,BCML,Hotchkiss Malcolm Flemming,Director,"May 06, 2020",$12.16,1500,18240,13616,"May 07, 2020, 07:43 PM",buy
+23,PCB,CHO DANIEL,Director of Subsidiary,"May 07, 2020",$9.00,909,8181,5909,"May 07, 2020, 07:28 PM",buy
+24,PCB,CHO DANIEL,Director of Subsidiary,"May 06, 2020",$9.00,5000,45000,5000,"May 07, 2020, 07:28 PM",buy
+25,AVID,Asmar Christian,Director,"May 06, 2020",$6.00,10490,62892,4356011,"May 07, 2020, 07:21 PM",buy
+26,AVID,Asmar Christian,Director,"May 05, 2020",$5.98,29492,176256,4345521,"May 07, 2020, 07:21 PM",buy
+27,PMBC,Anderson Robert S.,EVP & Chief Credit Officer,"May 06, 2020",$3.49,20000,69800,118067,"May 07, 2020, 07:13 PM",buy
+28,EMMA,Niihara Yutaka,Chairman and CEO,"May 06, 2020",$1.30,1000,1300,10614243,"May 07, 2020, 06:42 PM",buy
+29,EMMA,Niihara Yutaka,Chairman and CEO,"May 05, 2020",$1.32,3000,3960,10613243,"May 07, 2020, 06:42 PM",buy
+30,PMBC,Christianssen Curt Alan,EVP & CFO,"May 06, 2020",$3.43,4000,13720,104926,"May 07, 2020, 06:38 PM",buy
+31,PMBC,Christianssen Curt Alan,EVP & CFO,"May 05, 2020",$3.57,3000,10710,100926,"May 07, 2020, 06:38 PM",buy
+32,PMBC,Christianssen Curt Alan,EVP & CFO,"May 07, 2020",$3.48,5000,17400,109926,"May 07, 2020, 06:38 PM",buy
+33,PMBC,Dinsmore Bradford R,Chief Executive Officer,"May 05, 2020",$3.65,22000,80300,78000,"May 07, 2020, 06:37 PM",buy
+34,USAC,LONG ERIC D,See Remarks,"May 07, 2020",$7.95,10000,79500,424926,"May 07, 2020, 06:11 PM",buy
+35,HOPE,LEWIS WILLIAM J,Director,"May 07, 2020",$8.69,2500,21725,10000,"May 07, 2020, 06:05 PM",buy
+36,FLXS,Schmidt Derek P,CFO & COO,"May 07, 2020",$8.32,10820,90022,22415,"May 07, 2020, 06:05 PM",buy
+37,RVP,SHAW THOMAS J,President and CEO,"May 07, 2020",$4.76,200,952,14557206,"May 07, 2020, 06:01 PM",buy
+38,HMST,Patterson Mark Robert,Director,"May 06, 2020",$22.79,4324,98544,101576,"May 07, 2020, 05:56 PM",buy
+39,HMST,Patterson Mark Robert,Director,"May 05, 2020",$22.96,2252,51706,97252,"May 07, 2020, 05:56 PM",buy
+40,HMST,Patterson Mark Robert,Director,"May 07, 2020",$22.96,3424,78615,105000,"May 07, 2020, 05:56 PM",buy
+41,HMST,EDERER DAVID A,Director,"May 06, 2020",$22.50,2781,62573,9781,"May 07, 2020, 05:55 PM",buy
+42,ORRF,Fignar Robert J,Executive Vice President,"May 06, 2020",$13.50,1990,26865,15961,"May 07, 2020, 05:50 PM",buy
+43,MSF A,Dennis Kathleen A,Director,"May 01, 2020",$851.34,116,98755,117,"May 07, 2020, 05:40 PM",buy
+44,DFS,Eichfeld Robert Andrew,EVP - Chief HR & Admin Officer,"May 06, 2020",$39.50,12650,499675,33454,"May 07, 2020, 05:28 PM",buy
+45,FNWB,Behar Dana D.,Director,"May 07, 2020",$10.52,4934,51906,18934,"May 07, 2020, 05:22 PM",buy
+46,RIVE,Kunkel Ginger G,SEVP & COO,"May 06, 2020",$6.66,4500,29975,14994,"May 07, 2020, 05:15 PM",buy
+47,ICMB,Investcorp BDC Holdings Ltd,10% Owner,"May 07, 2020",$3.43,3080,10551,499134,"May 07, 2020, 05:14 PM",buy
+48,ICMB,Investcorp BDC Holdings Ltd,10% Owner,"May 06, 2020",$3.83,2900,11113,496054,"May 07, 2020, 05:14 PM",buy
+49,ICMB,Investcorp BDC Holdings Ltd,10% Owner,"May 05, 2020",$4.12,2814,11590,493154,"May 07, 2020, 05:14 PM",buy
+50,TRTN,GERMAIN CLAUDE,Director,"May 06, 2020",$29.50,800,23600,2348,"May 07, 2020, 05:01 PM",buy
+51,SYNL,Roberson Maria Haughton,"President, ASTI","May 07, 2020",$7.86,1000,7860,5808,"May 07, 2020, 04:52 PM",buy
+52,SYNL,KACZKA JEFFREY,Director,"May 07, 2020",$7.82,2000,15640,15174,"May 07, 2020, 04:43 PM",buy
+53,HONE,CASEY JOSEPH F,President and COO,"May 05, 2020",$7.60,2000,15200,251403,"May 07, 2020, 04:35 PM",buy
+54,RIVE,Kerwin Joseph D.,Director,"May 06, 2020",$7.09,1500,10635,38369,"May 07, 2020, 04:33 PM",buy
+55,NURO,Gozani Shai,President & CEO,"May 07, 2020",$2.11,1000,2109,20380,"May 07, 2020, 04:33 PM",buy
+56,JELD,Michel Gary S,President and CEO,"May 07, 2020",$12.68,10000,126800,202132,"May 07, 2020, 04:32 PM",buy
+57,FFIC,Azarian Michael A,Director,"May 06, 2020",$11.00,5000,55000,13900,"May 07, 2020, 04:31 PM",buy
+58,RIVE,Wood William Ernest,Director,"May 06, 2020",$6.55,560,3668,12560,"May 07, 2020, 04:26 PM",buy
+59,HQI,Hermanns Richard,President and CEO,"May 06, 2020",$6.48,2500,16205,5882275,"May 07, 2020, 04:22 PM",buy
+60,HQI,Hermanns Richard,President and CEO,"May 05, 2020",$6.46,2500,16149,5879775,"May 07, 2020, 04:22 PM",buy
+61,HQI,JACKSON EDWARD,Director,"May 05, 2020",$6.49,2050,13311,2528917,"May 07, 2020, 04:21 PM",buy
+62,AXDX,SCHULER JACK W,Director,"May 05, 2020",$10.00,8625,86250,14699074,"May 07, 2020, 04:19 PM",buy
+63,HBT,DRAKE FRED L,CHAIRMAN AND CEO,"May 06, 2020",$10.80,5000,54000,35000,"May 07, 2020, 04:16 PM",buy
+64,HBT,DRAKE FRED L,CHAIRMAN AND CEO,"May 05, 2020",$11.15,10000,111500,30000,"May 07, 2020, 04:16 PM",buy
+65,WNEB,Richter Steven G.,Director,"May 06, 2020",$5.04,9483,47794,9483,"May 07, 2020, 04:15 PM",buy
+66,CBFV,Pollock David F.,Director,"May 07, 2020",$22.90,1000,22902,38280,"May 07, 2020, 04:14 PM",buy
+67,RIVE,Greenawalt Howard R.,Director,"May 06, 2020",$6.81,1501,10226,22061,"May 07, 2020, 04:13 PM",buy
+68,NVT,Parker Herbert K,Director,"May 06, 2020",$17.37,6000,104208,12254,"May 07, 2020, 04:12 PM",buy
+69,ECC,McDonald Kevin F.,Director,"May 06, 2020",$6.05,3000,18150,9993,"May 07, 2020, 04:12 PM",buy
+70,FMBM,Hanna Mark Christopher,President & CEO,"May 05, 2020",$18.75,53,994,3720,"May 07, 2020, 04:08 PM",buy
+71,CLB,Sodderland Jan Willem,Director,"May 07, 2020",$17.07,600,10242,7852,"May 07, 2020, 04:05 PM",buy
+72,EIG,Dirks Douglas D,President & CEO,"May 05, 2020",$29.26,6000,175560,486347,"May 07, 2020, 04:05 PM",buy
+73,FMBM,Shillingburg Stephanie E,Executive Vice President,"May 05, 2020",$18.75,11,206,663,"May 07, 2020, 04:02 PM",buy
+74,RIVE,Gathagan Maureen M.,Director,"May 06, 2020",$6.90,1060,7314,4590,"May 07, 2020, 04:02 PM",buy
+75,RIVE,Evans Albert J.,Director,"May 06, 2020",$6.55,2150,14087,44354,"May 07, 2020, 03:42 PM",buy
+76,FMBM,Comer Carrie A,EVP & CFO,"May 07, 2020",$18.75,3,56,63,"May 07, 2020, 03:26 PM",buy
+77,MRBK,Casciato Robert M.,Director,"May 06, 2020",$15.90,3125,49690,76704,"May 07, 2020, 03:21 PM",buy
+78,AGNC,Kain Gary D,"Director, CEO, and CIO","May 06, 2020",$12.60,189188,2383390,892000,"May 07, 2020, 03:17 PM",buy
+79,RIVE,Cherry Paula M.,Director,"May 06, 2020",$7.02,1400,9828,20361,"May 07, 2020, 03:17 PM",buy
+80,FFNW,Riccobono Richard M,Director,"May 06, 2020",$9.22,5000,46100,15916,"May 07, 2020, 03:13 PM",buy
+81,NFBK,French Tara L,EVP/Chief Admin. Officer,"May 06, 2020",$10.83,1750,18952,13408,"May 07, 2020, 03:10 PM",buy
+82,NFBK,Klein Steven M,President & CEO,"May 06, 2020",$10.65,10000,106500,382795,"May 07, 2020, 03:06 PM",buy
+83,RIVE,FULK BRETT D,President & CEO,"May 06, 2020",$6.50,7000,45500,49596,"May 07, 2020, 02:57 PM",buy
+84,MVBF,Robinson Donald T,"EVP, CFO & Treasurer","May 06, 2020",$12.48,400,4991,13983,"May 07, 2020, 02:41 PM",buy
+85,RRBI,Price Teddy Ray,Director,"May 05, 2020",$38.00,100,3800,63426,"May 07, 2020, 02:37 PM",buy
+86,RRBI,Price Teddy Ray,Director,"May 06, 2020",$39.00,3564,138996,336051,"May 07, 2020, 02:37 PM",buy
+87,RRBI,Price Teddy Ray,Director,"May 05, 2020",$38.00,1703,64714,332487,"May 07, 2020, 02:37 PM",buy
+88,RRBI,Price Teddy Ray,Director,"May 06, 2020",$39.00,308,12012,386,"May 07, 2020, 02:37 PM",buy
+89,RRBI,Price Teddy Ray,Director,"May 05, 2020",$38.00,78,2964,78,"May 07, 2020, 02:37 PM",buy
+90,BRKL,Hollister Thomas J,Director,"May 06, 2020",$8.98,7000,62860,30500,"May 07, 2020, 02:16 PM",buy
+91,CHMG,Wirth Thomas W,Executive Vice President,"May 07, 2020",$24.45,6658,162788,14525,"May 07, 2020, 01:58 PM",buy
+92,GFN,Kluckman Jeffrey A,Executive Vice President,"May 07, 2020",$94.75,2,190,110,"May 07, 2020, 01:40 PM",buy
+93,B,Hipple Richard J,Director,"May 05, 2020",$36.41,1200,43692,9400,"May 07, 2020, 01:35 PM",buy
+94,RGCO,Burton Randall P. II,"VP, Treasurer, Secretary & CFO","May 07, 2020",$24.00,500,12000,1007,"May 07, 2020, 01:24 PM",buy
+95,NWBI,Hunter Timothy M,Director,"May 06, 2020",$9.97,15000,149475,59500,"May 07, 2020, 01:24 PM",buy
+96,WHLRD,"Steamboat Capital Partners GP, LLC",10% Owner,"May 05, 2020",$1.13,35885,40421,0,"May 07, 2020, 01:22 PM",buy
+97,WHLRD,"Steamboat Capital Partners GP, LLC",10% Owner,"May 06, 2020",$1.00,713,710,0,"May 07, 2020, 01:22 PM",buy
+98,WHLRD,"Steamboat Capital Partners GP, LLC",10% Owner,"May 06, 2020",$1.00,21892,21791,0,"May 07, 2020, 01:22 PM",buy
+99,WHLRD,"Steamboat Capital Partners GP, LLC",10% Owner,"May 05, 2020",$1.13,681,767,0,"May 07, 2020, 01:22 PM",buy
+100,MCB,Perri Gerard A,EVP and COO,"May 07, 2020",$22.81,196,4471,7698,"May 07, 2020, 01:14 PM",buy
+101,CBAN,Bagwell Lee,Executive VP,"May 05, 2020",$12.25,2296,28124,8074,"May 07, 2020, 01:08 PM",buy
+1,ORI,Bateman Steven J,Director,"May 06, 2020",$14.60,1000,14600,16976,"May 07, 2020, 01:02 PM",buy
+2,CCNE,Peterson Joel E.,Director,"May 06, 2020",$16.00,1000,16000,12417,"May 07, 2020, 12:01 PM",buy
+3,CBAN,Cook J. Stan,Exec VP & Chief Oper Officer,"May 05, 2020",$12.00,1000,12000,7687,"May 07, 2020, 11:22 AM",buy
+4,PLPC,Klaus Andrew S,CFO,"May 07, 2020",$47.84,764,36550,4000,"May 07, 2020, 10:50 AM",buy
+5,PLPC,Klaus Andrew S,CFO,"May 06, 2020",$47.72,3000,143160,3236,"May 07, 2020, 10:50 AM",buy
+6,PLPC,Klaus Andrew S,CFO,"May 05, 2020",$51.15,236,12071,236,"May 07, 2020, 10:50 AM",buy
+7,NHS,"Saba Capital Management, L.P.",10% Owner,"May 05, 2020",$9.80,10000,98000,4441901,"May 07, 2020, 10:36 AM",buy
+8,MPB,Noone John E,Director,"May 06, 2020",$19.19,743,14261,25600,"May 07, 2020, 10:33 AM",buy
+9,BQH,"Saba Capital Management, L.P.",10% Owner,"May 05, 2020",$14.41,645,9294,462400,"May 07, 2020, 10:31 AM",buy
+10,BQH,"Saba Capital Management, L.P.",10% Owner,"May 06, 2020",$14.57,6336,92316,468736,"May 07, 2020, 10:31 AM",buy
+11,SFE,Herndon Mark,SVP & Chief Financial Officer,"May 06, 2020",$6.25,2000,12500,30000,"May 07, 2020, 10:19 AM",buy
+12,TIPT,Barnes Michael Gene,Executive Chairman,"May 06, 2020",$5.98,3390,20269,8346519,"May 07, 2020, 09:52 AM",buy
+13,TIPT,Barnes Michael Gene,Executive Chairman,"May 05, 2020",$6.28,3390,21282,8343129,"May 07, 2020, 09:52 AM",buy
+14,BY,KISTNER WILLIAM G,Director,"May 06, 2020",$10.35,1700,17603,5000,"May 07, 2020, 09:42 AM",buy
+15,FISI,DUGAN JOSEPH L,Senior Vice President,"May 06, 2020",$15.90,500,7950,5879,"May 07, 2020, 09:34 AM",buy
+16,FISI,DUGAN JOSEPH L,Senior Vice President,"May 05, 2020",$19.23,2500,48075,5379,"May 07, 2020, 09:34 AM",buy
+17,NAVI,UNGER LAURA S,Director,"May 06, 2020",$7.25,3000,21750,44082,"May 07, 2020, 09:30 AM",buy
+18,MYOV,"Sumitomo Chemical Co., Ltd.",10% Owner,"May 05, 2020",$11.97,100000,1196540,48247693,"May 07, 2020, 09:26 AM",buy
+19,BSVN,Haines Lisa K.,EVP; Chief Marketing Officer,"May 05, 2020",$10.75,1300,13975,1300,"May 07, 2020, 09:18 AM",buy
+20,BSVN,Sanner J. Michael,Director,"May 05, 2020",$10.68,500,5340,3500,"May 07, 2020, 09:07 AM",buy
+21,SMPL,WHITE JAMES D,Director,"May 06, 2020",$17.97,2780,49953,6333,"May 07, 2020, 09:07 AM",buy
+22,ONB,Hermann Daniel S,Director,"May 05, 2020",$13.63,20170,275002,20170,"May 07, 2020, 08:29 AM",buy
+23,MSF A,Dennis Kathleen A,Director,"May 01, 2020",$851.34,116,98755,116,"May 06, 2020, 09:51 PM",buy
+24,CATC,Palandjian Leon Aghababai,Director,"May 05, 2020",$52.46,2000,104910,10957,"May 06, 2020, 09:20 PM",buy
+25,CATC,Palandjian Leon Aghababai,Director,"May 04, 2020",$53.46,1000,53460,8957,"May 06, 2020, 09:20 PM",buy
+26,OSTK,Shapiro Robert Jacob,Director,"May 04, 2020",$13.00,3000,39000,3000,"May 06, 2020, 08:03 PM",buy
+27,GDL,GABELLI MARIO J,Director,"May 05, 2020",$8.12,4587,37262,2508220,"May 06, 2020, 07:39 PM",buy
+28,GDL,GABELLI MARIO J,Director,"May 04, 2020",$7.95,2415,19211,2503633,"May 06, 2020, 07:39 PM",buy
+29,LYRA,"NBVM GP, LLC",10% Owner,"May 05, 2020",$16.00,250000,4000000,778592,"May 06, 2020, 07:38 PM",buy
+30,SPLP,LICHTENSTEIN WARREN G,Executive Chairman,"May 05, 2020",$4.95,3000,14859,199529,"May 06, 2020, 07:33 PM",buy
+31,SPLP,LICHTENSTEIN WARREN G,Executive Chairman,"May 04, 2020",$4.96,1511,7498,196529,"May 06, 2020, 07:33 PM",buy
+32,LYRA,ANDERSON EDWARD T,Director,"May 05, 2020",$16.00,250000,4000000,778592,"May 06, 2020, 07:32 PM",buy
+33,LYRA,"Polaris Venture Management Co. V, L.L.C.",10% Owner,"May 05, 2020",$16.00,62500,1000000,1062259,"May 06, 2020, 07:30 PM",buy
+34,EIG,McSally Michael J,Director,"May 06, 2020",$29.54,3000,88620,9587,"May 06, 2020, 07:30 PM",buy
+35,BTN,"Fundamental Global Investors, LLC",Director,"May 05, 2020",$1.53,1743,2666,1643637,"May 06, 2020, 07:29 PM",buy
+36,BTN,"Fundamental Global Investors, LLC",Director,"May 05, 2020",$1.53,1743,2666,1628555,"May 06, 2020, 07:29 PM",buy
+37,BTN,"Fundamental Global Investors, LLC",Director,"May 06, 2020",$1.47,1743,2571,1645380,"May 06, 2020, 07:29 PM",buy
+38,BTN,"Fundamental Global Investors, LLC",Director,"May 04, 2020",$1.53,1743,2667,1641894,"May 06, 2020, 07:29 PM",buy
+39,BTN,"Fundamental Global Investors, LLC",Director,"May 06, 2020",$1.47,1743,2571,1630298,"May 06, 2020, 07:29 PM",buy
+40,BTN,"Fundamental Global Investors, LLC",Director,"May 04, 2020",$1.53,1743,2667,1626812,"May 06, 2020, 07:29 PM",buy
+41,BKTI,"Fundamental Global Investors, LLC",Director,"May 06, 2020",$2.46,345,849,1204499,"May 06, 2020, 07:27 PM",buy
+42,BKTI,"Fundamental Global Investors, LLC",Director,"May 04, 2020",$2.44,4194,10251,1199400,"May 06, 2020, 07:27 PM",buy
+43,BKTI,"Fundamental Global Investors, LLC",Director,"May 06, 2020",$2.46,148,364,729012,"May 06, 2020, 07:27 PM",buy
+44,BKTI,"Fundamental Global Investors, LLC",Director,"May 04, 2020",$2.44,1797,4392,726827,"May 06, 2020, 07:27 PM",buy
+45,BKTI,"Fundamental Global Investors, LLC",Director,"May 05, 2020",$2.55,4754,12119,1204154,"May 06, 2020, 07:27 PM",buy
+46,BKTI,"Fundamental Global Investors, LLC",Director,"May 05, 2020",$2.55,2037,5193,728864,"May 06, 2020, 07:27 PM",buy
+47,SFE,Manko Joseph M. Jr.,Director,"May 06, 2020",$6.26,10000,62554,105728,"May 06, 2020, 07:01 PM",buy
+48,SFE,Manko Joseph M. Jr.,Director,"May 05, 2020",$6.75,15000,101262,95728,"May 06, 2020, 07:01 PM",buy
+49,SFE,Manko Joseph M. Jr.,Director,"May 04, 2020",$6.95,15000,104295,80728,"May 06, 2020, 07:01 PM",buy
+50,OVLY,HOLDER H RANDOLPH JR,Director,"May 06, 2020",$13.00,1758,22854,98275,"May 06, 2020, 06:58 PM",buy
+51,WH,Ballotti Geoffrey A,President and CEO,"May 06, 2020",$39.39,10000,393920,207669,"May 06, 2020, 06:57 PM",buy
+52,CZWI,Bianchi Stephen M,CEO and President,"May 05, 2020",$7.77,100,777,39192,"May 06, 2020, 06:19 PM",buy
+53,CZWI,Bianchi Stephen M,CEO and President,"May 06, 2020",$7.93,300,2378,39492,"May 06, 2020, 06:19 PM",buy
+54,CZWI,Olson Timothy L,Director,"May 05, 2020",$7.86,1480,11633,9389,"May 06, 2020, 06:19 PM",buy
+55,CZWI,BROUCEK JAMES S,EVP/CFO/Treasurer/Secretary,"May 06, 2020",$7.98,300,2393,32004,"May 06, 2020, 06:18 PM",buy
+56,CZWI,MCHUGH RICHARD,Director,"May 06, 2020",$7.99,2000,15980,181963,"May 06, 2020, 06:18 PM",buy
+57,CZWI,FELBER FRANCIS E,Director,"May 06, 2020",$7.83,646,5058,8096,"May 06, 2020, 06:17 PM",buy
+58,FNWB,Oliver Stephen E.,Director,"May 04, 2020",$11.33,330,3739,23346,"May 06, 2020, 06:11 PM",buy
+59,ESXB,WILLIAMS ROBIN TRAYWICK,Director,"May 04, 2020",$5.50,1000,5500,73225,"May 06, 2020, 06:03 PM",buy
+60,WTRE,Scherer Alexandre,CEO (WSIC; WIC),"May 06, 2020",$11.77,1700,20009,12912,"May 06, 2020, 06:00 PM",buy
+61,WTRE,Hawley Robert L.,Chief Financial Officer,"May 06, 2020",$11.50,3000,34500,21078,"May 06, 2020, 06:00 PM",buy
+62,HQI,Hermanns Richard,President and CEO,"May 04, 2020",$6.37,2500,15929,5877275,"May 06, 2020, 05:48 PM",buy
+63,ED,de la Bastide Lore,"SVP, Utility Shared Services","Apr 30, 2020",$82.62,4,330,662,"May 06, 2020, 05:48 PM",buy
+64,PSX,Adams Gary Kramer,Director,"May 05, 2020",$76.40,1250,95499,10213,"May 06, 2020, 05:47 PM",buy
+65,ED,Cawley Timothy,"President, CECONY","Apr 30, 2020",$82.62,28,2313,15542,"May 06, 2020, 05:46 PM",buy
+66,ED,Donnley Deneen L,SVP and General Counsel,"Apr 30, 2020",$82.62,28,2313,364,"May 06, 2020, 05:44 PM",buy
+67,ED,HOGLUND ROBERT N,SVP & CFO,"Apr 30, 2020",$82.62,28,2313,39861,"May 06, 2020, 05:41 PM",buy
+68,ED,Nachmias Stuart,President & CEO CET,"Apr 30, 2020",$82.62,8,661,964,"May 06, 2020, 05:40 PM",buy
+69,ED,Nadkarni Gurudatta D,"VP, Strategic Planning","Apr 30, 2020",$82.62,25,2066,7438,"May 06, 2020, 05:39 PM",buy
+70,FMBH,Hiden David R.,"SVP, Chief Information Officer","May 06, 2020",$24.88,201,5001,398,"May 06, 2020, 05:37 PM",buy
+71,ED,McAvoy John,"Chairman, President & CEO","Apr 30, 2020",$82.62,28,2313,130890,"May 06, 2020, 05:37 PM",buy
+72,LXFR,Hipple Richard J,Director,"May 05, 2020",$12.61,3000,37830,6044,"May 06, 2020, 05:36 PM",buy
+73,ED,Muccilo Robert,VP & Chief Accounting Officer,"Apr 30, 2020",$82.62,24,1983,7446,"May 06, 2020, 05:35 PM",buy
+74,SVBI,Jones David S.,Director,"May 01, 2020",$5.66,6619,37472,16619,"May 06, 2020, 05:35 PM",buy
+75,ED,Sanchez Robert,"President & CEO, O&R","Apr 30, 2020",$82.62,28,2313,2879,"May 06, 2020, 05:33 PM",buy
+76,CATC,SHEAHAN DENIS K,Chairman and CEO,"May 05, 2020",$54.20,500,27100,29718,"May 06, 2020, 05:27 PM",buy
+77,CATC,SHEAHAN DENIS K,Chairman and CEO,"May 04, 2020",$53.00,500,26500,29218,"May 06, 2020, 05:27 PM",buy
+78,NURO,Gozani Shai,President & CEO,"May 06, 2020",$2.03,1000,2030,19380,"May 06, 2020, 05:14 PM",buy
+79,WTBA,GERDIN MICHAEL J,Director,"May 06, 2020",$16.48,2579,42505,13894,"May 06, 2020, 05:11 PM",buy
+80,LYB,Coombs Daniel M,"EVP - Global O&P, Proc, Tech","May 04, 2020",$53.28,4400,234422,43396,"May 06, 2020, 05:08 PM",buy
+81,RVI,Roulston Scott D,Director,"May 05, 2020",$12.92,3000,38760,12517,"May 06, 2020, 05:00 PM",buy
+82,UFI,MEAD JAMES D.,Director,"May 05, 2020",$10.94,4165,45565,28846,"May 06, 2020, 05:00 PM",buy
+83,RVI,Boston Gary N,Director,"May 06, 2020",$12.12,1000,12117,11318,"May 06, 2020, 05:00 PM",buy
+84,UFI,LANGONE KENNETH G,Director,"May 06, 2020",$10.70,15000,160500,1410000,"May 06, 2020, 05:00 PM",buy
+85,UFI,LANGONE KENNETH G,Director,"May 05, 2020",$11.17,25000,279250,1395000,"May 06, 2020, 05:00 PM",buy
+86,LGF,RACHESKY MARK H MD,Director,"May 05, 2020",$7.22,81967,592130,3242547,"May 06, 2020, 04:56 PM",buy
+87,LGF,RACHESKY MARK H MD,Director,"May 04, 2020",$7.00,100000,699920,3160580,"May 06, 2020, 04:56 PM",buy
+88,JMP,Wright Thomas Rowe,Director of Equities,"May 06, 2020",$2.49,1750,4350,400110,"May 06, 2020, 04:56 PM",buy
+89,JMP,Wright Thomas Rowe,Director of Equities,"May 05, 2020",$2.48,2000,4964,398360,"May 06, 2020, 04:56 PM",buy
+90,FFIC,Han Sam Sang Ki,Director,"May 04, 2020",$11.66,3500,40810,58650,"May 06, 2020, 04:55 PM",buy
+91,CBFV,Fox Mark E.,Director,"May 06, 2020",$22.75,340,7735,5838,"May 06, 2020, 04:51 PM",buy
+92,CBTX,Long Justin M,Sr. EVP Gen Counsel,"May 05, 2020",$17.69,2800,49539,18289,"May 06, 2020, 04:46 PM",buy
+93,CCBG,Johnson Laura L,Director,"May 04, 2020",$20.45,1500,30673,15512,"May 06, 2020, 04:44 PM",buy
+94,FISI,DORN ANDREW W JR,Director,"May 05, 2020",$18.57,2558,47502,24000,"May 06, 2020, 04:43 PM",buy
+95,GRA,La Force Andrew Hudson III,President and CEO,"May 04, 2020",$46.37,5000,231870,112814,"May 06, 2020, 04:42 PM",buy
+96,MOFG,Kaeding Nathaniel J,Director,"May 05, 2020",$19.20,258,4954,408,"May 06, 2020, 04:42 PM",buy
+97,NHLD,ASHER DANIEL,10% Owner,"May 05, 2020",$1.80,71331,128208,1279805,"May 06, 2020, 04:41 PM",buy
+98,NHLD,ASHER DANIEL,10% Owner,"May 06, 2020",$1.88,2100,3948,1283085,"May 06, 2020, 04:41 PM",buy
+99,NHLD,ASHER DANIEL,10% Owner,"May 06, 2020",$1.88,4480,8443,1286385,"May 06, 2020, 04:41 PM",buy
+100,FISI,Burruano Samuel J Jr,Senior Vice President,"May 05, 2020",$19.56,1500,29340,2413,"May 06, 2020, 04:39 PM",buy
+1,EXEL,Senner Christopher J.,EVP and CFO,"May 08, 2020",$25.81,78583,2028227,120703,"May 08, 2020, 09:22 PM",sell
+2,EXEL,Senner Christopher J.,EVP and CFO,"May 07, 2020",$25.80,21417,552559,120703,"May 08, 2020, 09:22 PM",sell
+3,EXEL,PAPADOPOULOS STELIOS,Director,"May 08, 2020",$25.84,45000,1162800,1052568,"May 08, 2020, 09:18 PM",sell
+4,EXEL,Haley Patrick J.,"EVP, Commercial","May 08, 2020",$25.87,21375,552971,118491,"May 08, 2020, 09:16 PM",sell
+5,EXEL,FELDBAUM CARL B,Director,"May 07, 2020",$25.02,31546,789281,8521,"May 08, 2020, 09:14 PM",sell
+6,PFSI,Walker David M,Chief Risk Officer,"May 07, 2020",$28.72,10000,287162,373085,"May 08, 2020, 09:14 PM",sell
+7,PFSI,Walker David M,Chief Risk Officer,"May 08, 2020",$30.87,10000,308688,367783,"May 08, 2020, 09:14 PM",sell
+8,EXEL,POSTE GEORGE,Director,"May 07, 2020",$25.61,30000,768300,112792,"May 08, 2020, 09:13 PM",sell
+9,EXEL,Lamb Peter,"EVP, Scientific Strategy & CSO","May 07, 2020",$25.54,50000,1277000,126531,"May 08, 2020, 09:11 PM",sell
+10,ARES,McFerran Michael R,"EVP, COO & CFO","May 08, 2020",$34.79,11996,417341,712228,"May 08, 2020, 08:27 PM",sell
+11,ARES,McFerran Michael R,"EVP, COO & CFO","May 07, 2020",$34.50,47500,1638750,754224,"May 08, 2020, 08:27 PM",sell
+12,ARES,Rosenthal Bennett,Co-Founder & Co-Chair of PEG,"May 06, 2020",$34.90,108884,3800361,1341504,"May 08, 2020, 08:25 PM",sell
+13,ARES,Rosenthal Bennett,Co-Founder & Co-Chair of PEG,"May 08, 2020",$34.70,72786,2525914,951984,"May 08, 2020, 08:25 PM",sell
+14,ARES,Rosenthal Bennett,Co-Founder & Co-Chair of PEG,"May 07, 2020",$34.71,272808,9470356,1053450,"May 08, 2020, 08:25 PM",sell
+15,ARES,KAPLAN DAVID B,Co-Founder & Co-Chair of PEG,"May 06, 2020",$35.10,64285,2256403,1363301,"May 08, 2020, 08:24 PM",sell
+16,ARES,KAPLAN DAVID B,Co-Founder & Co-Chair of PEG,"May 08, 2020",$35.09,12959,454731,1316989,"May 08, 2020, 08:24 PM",sell
+17,ARES,KAPLAN DAVID B,Co-Founder & Co-Chair of PEG,"May 07, 2020",$35.14,33353,1172024,1329948,"May 08, 2020, 08:24 PM",sell
+18,ARES,Arougheti Michael J,"Co-Founder, CEO and President","May 08, 2020",$35.09,12836,450415,676008,"May 08, 2020, 08:23 PM",sell
+19,ARES,Arougheti Michael J,"Co-Founder, CEO and President","May 07, 2020",$35.15,33135,1164695,688844,"May 08, 2020, 08:23 PM",sell
+20,ARES,Arougheti Michael J,"Co-Founder, CEO and President","May 06, 2020",$35.11,59593,2092310,721979,"May 08, 2020, 08:23 PM",sell
+21,MXL,SEENDRIPU KISHORE,"Chairman, President and CEO","May 08, 2020",$16.65,17328,288461,76850,"May 08, 2020, 08:18 PM",sell
+22,MXL,SEENDRIPU KISHORE,"Chairman, President and CEO","May 07, 2020",$16.17,32210,520749,69768,"May 08, 2020, 08:18 PM",sell
+23,MXL,SEENDRIPU KISHORE,"Chairman, President and CEO","May 06, 2020",$16.21,25219,408775,51978,"May 08, 2020, 08:18 PM",sell
+24,ORCC,REGENTS OF THE UNIVERSITY OF CALIFORNIA,10% Owner,"May 08, 2020",$13.06,145000,1894135,43540483,"May 08, 2020, 08:07 PM",sell
+25,PRNB,Goldstein David M,Chief Scientific Officer,"May 07, 2020",$60.16,6000,360941,33687,"May 08, 2020, 08:05 PM",sell
+26,ADPT,ROBINS CHAD M,CEO and Chairman,"May 07, 2020",$35.60,45000,1601967,1886994,"May 08, 2020, 08:00 PM",sell
+27,ADPT,DOBMEIER ERIC,Director,"May 07, 2020",$35.00,5000,175000,0,"May 08, 2020, 08:00 PM",sell
+28,ADPT,BALDO LANCE,Chief Medical Officer,"May 06, 2020",$33.86,50000,1692885,550,"May 08, 2020, 08:00 PM",sell
+29,WMT,Lore Marc E.,Executive Vice President,"May 07, 2020",$123.05,85000,10459301,2272996,"May 08, 2020, 07:54 PM",sell
+30,SGEN,ROMP CHARLES R,"EVP, Commercial","May 08, 2020",$163.02,6942,1131667,52575,"May 08, 2020, 07:54 PM",sell
+31,TSLA,Baglino Andrew D,SVP Powertrain and Energy Eng.,"May 06, 2020",$785.75,2000,1571496,4145,"May 08, 2020, 07:53 PM",sell
+32,RDI,James J. Cotter Living Trust,10% Owner,"May 08, 2020",$3.56,2500,8898,1727649,"May 08, 2020, 07:52 PM",sell
+33,RDI,James J. Cotter Living Trust,10% Owner,"May 07, 2020",$3.57,2500,8934,1730149,"May 08, 2020, 07:52 PM",sell
+34,RDI,COTTER MARGARET,"EVP, Real Estate Dev.","May 07, 2020",$3.57,2500,8934,1730149,"May 08, 2020, 07:51 PM",sell
+35,RDI,COTTER MARGARET,"EVP, Real Estate Dev.","May 08, 2020",$3.56,2500,8898,1727649,"May 08, 2020, 07:51 PM",sell
+36,RDI,COTTER ELLEN M,"Chairperson, President and CEO","May 08, 2020",$3.56,2500,8898,1727649,"May 08, 2020, 07:50 PM",sell
+37,RDI,COTTER ELLEN M,"Chairperson, President and CEO","May 07, 2020",$3.57,2500,8934,1730149,"May 08, 2020, 07:50 PM",sell
+38,HCA,Foster Jon M,Group President,"May 06, 2020",$100.19,24220,2426654,49212,"May 08, 2020, 07:48 PM",sell
+39,SFM,Sanders Dan J,Chief Operations Officer,"May 08, 2020",$24.06,34454,828963,44760,"May 08, 2020, 07:43 PM",sell
+40,SGEN,DANSEY ROGER D,Chief Medical Officer,"May 07, 2020",$164.50,11912,1959526,117233,"May 08, 2020, 07:42 PM",sell
+41,SFM,GRAHAM TERRI F,Director,"May 08, 2020",$25.08,2778,69680,23975,"May 08, 2020, 07:42 PM",sell
+42,CDAY,"Cannae Holdings, Inc.",Director,"May 08, 2020",$64.41,1800000,115938007,18039227,"May 08, 2020, 07:32 PM",sell
+43,EW,BOBO DONALD E JR,"CVP,Strategy/Corp Development","May 08, 2020",$220.94,5372,1186890,22447,"May 08, 2020, 07:19 PM",sell
+44,CDNA,Bell Michael Brian,Chief Financial Officer,"May 06, 2020",$29.00,57136,1657032,78522,"May 08, 2020, 07:18 PM",sell
+45,EW,MUSSALLEM MICHAEL A,Chairman & CEO,"May 08, 2020",$219.58,22850,5017353,76751,"May 08, 2020, 07:17 PM",sell
+46,MED,MACDONALD MICHAEL C,Director,"May 06, 2020",$90.74,5000,453676,276896,"May 08, 2020, 07:03 PM",sell
+47,MED,MACDONALD MICHAEL C,Director,"Jan 02, 2020",$111.43,5000,557128,284456,"May 08, 2020, 07:03 PM",sell
+48,ESTC,Kluge Kevin,SVP of Engineering,"May 07, 2020",$70.01,10000,700105,531188,"May 08, 2020, 07:03 PM",sell
+49,SYK,Datar Srikant M.,Director,"May 07, 2020",$189.99,500,94995,16391,"May 08, 2020, 06:59 PM",sell
+50,SYK,Datar Srikant M.,Director,"May 06, 2020",$186.01,200,37202,16691,"May 08, 2020, 06:59 PM",sell
+51,SYK,Datar Srikant M.,Director,"May 08, 2020",$194.32,200,38864,15991,"May 08, 2020, 06:59 PM",sell
+52,MOH,Carruthers Garrey,Director,"May 06, 2020",$183.46,1700,311882,6065,"May 08, 2020, 06:54 PM",sell
+53,MOH,ROMNEY RONNA,Director,"May 07, 2020",$183.82,375,68933,21430,"May 08, 2020, 06:54 PM",sell
+54,MOH,ORLANDO STEVEN J,Director,"May 08, 2020",$179.38,1718,308175,21817,"May 08, 2020, 06:53 PM",sell
+55,ALGT,WILSON ROBERT PAUL III,EVP and CIO,"Mar 25, 2020",$92.23,4800,442718,8407,"May 08, 2020, 06:49 PM",sell
+56,DDOG,OBSTLER DAVID M,Chief Financial Officer,"May 06, 2020",$46.84,20000,936751,84297,"May 08, 2020, 06:49 PM",sell
+57,DDOG,OBSTLER DAVID M,Chief Financial Officer,"May 08, 2020",$52.17,9434,492174,46816,"May 08, 2020, 06:49 PM",sell
+58,DDOG,OBSTLER DAVID M,Chief Financial Officer,"May 07, 2020",$48.22,25000,1205490,56250,"May 08, 2020, 06:49 PM",sell
+59,W,Gamgort Robert James,Director,"May 08, 2020",$189.00,3100,585900,23788,"May 08, 2020, 06:42 PM",sell
+60,W,Gamgort Robert James,Director,"May 07, 2020",$180.00,6200,1116000,29988,"May 08, 2020, 06:42 PM",sell
+61,ADVM,PATTERSON LEONE D,"CEO, President and Director","May 06, 2020",$20.02,20000,400400,123659,"May 08, 2020, 06:25 PM",sell
+62,FDX,SMITH FREDERICK W,Chairman/CEO,"May 07, 2020",$117.71,155750,18333984,14532998,"May 08, 2020, 06:24 PM",sell
+63,TTEK,Volpi Kirsten M,Director,"May 07, 2020",$70.56,1351,95331,16857,"May 08, 2020, 06:20 PM",sell
+64,SPSC,WEHRWEIN SVEN,Director,"May 07, 2020",$59.62,9680,577119,14470,"May 08, 2020, 06:14 PM",sell
+65,SPSC,WEHRWEIN SVEN,Director,"May 06, 2020",$57.31,1000,57313,14470,"May 08, 2020, 06:14 PM",sell
+66,DBX,Regan Timothy,Chief Accounting Officer,"Apr 20, 2020",$19.18,2000,38360,148314,"May 08, 2020, 06:13 PM",sell
+67,FAST,Hein LeLand J,Senior Executive VP,"May 08, 2020",$38.71,10000,387061,15222,"May 08, 2020, 06:00 PM",sell
+68,FAST,Hein LeLand J,Senior Executive VP,"May 06, 2020",$37.92,10000,379151,15222,"May 08, 2020, 06:00 PM",sell
+69,HASI,Herron J Brendan,EVP,"May 07, 2020",$27.75,19750,548063,203981,"May 08, 2020, 05:58 PM",sell
+70,ROK,Holloman James Phillip,Director,"May 08, 2020",$194.34,1582,307446,0,"May 08, 2020, 05:56 PM",sell
+71,GSHD,Jones Mark Evan,CEO,"May 07, 2020",$58.23,30000,1746917,708460,"May 08, 2020, 05:53 PM",sell
+72,VXRT,"ARMISTICE CAPITAL, LLC",Director,"May 07, 2020",$2.51,100000,251000,15800000,"May 08, 2020, 05:48 PM",sell
+73,VXRT,"ARMISTICE CAPITAL, LLC",Director,"May 06, 2020",$2.58,50000,129000,15900000,"May 08, 2020, 05:48 PM",sell
+74,VXRT,"ARMISTICE CAPITAL, LLC",Director,"May 08, 2020",$2.52,100000,252000,15700000,"May 08, 2020, 05:48 PM",sell
+75,CFMS,Augusti Mark A,President & CEO,"May 07, 2020",$0.95,26187,24878,1799303,"May 08, 2020, 05:47 PM",sell
+76,SGEN,BAKER BROS. ADVISORS LP,Director,"May 07, 2020",$164.41,168244,27660947,45486837,"May 08, 2020, 05:47 PM",sell
+77,SGEN,BAKER BROS. ADVISORS LP,Director,"May 06, 2020",$165.05,390072,64379473,45814543,"May 08, 2020, 05:47 PM",sell
+78,SGEN,BAKER BROS. ADVISORS LP,Director,"May 08, 2020",$158.50,500000,79250000,44891148,"May 08, 2020, 05:47 PM",sell
+79,EVER,Birnbaum Seth,President and CEO,"May 07, 2020",$51.68,17600,909590,535183,"May 08, 2020, 05:46 PM",sell
+80,XPO,Spruce House Partnership LLC,10% Owner,"Mar 30, 2020",$51.63,215100,11105613,9060601,"May 08, 2020, 05:46 PM",sell
+81,FFIN,BRIDWELL TUCKER S,Director,"May 08, 2020",$26.99,20000,539800,233502,"May 08, 2020, 05:45 PM",sell
+82,EXPI,MILES RANDALL D,Director,"May 07, 2020",$9.05,1978,17892,40,"May 08, 2020, 05:38 PM",sell
+83,EXPI,MILES RANDALL D,Director,"May 06, 2020",$9.03,13022,117608,40,"May 08, 2020, 05:38 PM",sell
+84,WKHS,MARATHON ASSET MANAGEMENT LP,10% Owner,"May 08, 2020",$2.90,3845000,11150500,0,"May 08, 2020, 05:37 PM",sell
+85,RAPT,Lam Karen C,"VP, Finance & Controller","May 07, 2020",$15.40,1831,28197,10833,"May 08, 2020, 05:34 PM",sell
+86,GSHD,Jones Mark Evan,CEO,"May 06, 2020",$57.08,7300,416675,898,"May 08, 2020, 05:33 PM",sell
+87,GSHD,Jones Mark Evan,CEO,"May 06, 2020",$57.08,18200,1038832,2238,"May 08, 2020, 05:33 PM",sell
+88,GSHD,Jones Mark Evan,CEO,"May 06, 2020",$57.08,1900,108447,234,"May 08, 2020, 05:33 PM",sell
+89,CONE,Morefield Diane M,EVP & Chief Financial Officer,"May 08, 2020",$73.60,13916,1024233,41095,"May 08, 2020, 05:33 PM",sell
+90,CONE,KLAYKO MICHAEL,Director,"May 08, 2020",$73.60,5515,405926,8986,"May 08, 2020, 05:32 PM",sell
+91,FND,ARES CORPORATE OPPORTUNITIES FUND III LP,Director,"May 07, 2020",$42.20,3376928,142506364,8931478,"May 08, 2020, 05:29 PM",sell
+92,ANY,"MF Ventures, LLC",10% Owner,"May 06, 2020",$1.30,16467,21435,172854,"May 08, 2020, 05:29 PM",sell
+93,ANY,"MF Ventures, LLC",10% Owner,"May 07, 2020",$1.31,32021,41970,140833,"May 08, 2020, 05:29 PM",sell
+94,FND,"FS Equity Partners VI, L.P.",10% Owner,"May 07, 2020",$42.20,1623072,68493640,4292784,"May 08, 2020, 05:29 PM",sell
+95,BCEL,Greenberg Norman Michael,Chief Scientific Officer,"May 07, 2020",$18.00,5000,90000,0,"May 08, 2020, 05:28 PM",sell
+96,TDY,PICHELLI ALDO,President and CEO,"May 08, 2020",$332.17,5000,1660829,90902,"May 08, 2020, 05:27 PM",sell
+97,BLK,Lord Rachel,Senior Managing Director,"May 07, 2020",$499.31,3000,1497943,10778,"May 08, 2020, 05:24 PM",sell
+98,PGNY,Payson Norman,Director,"May 07, 2020",$22.54,17000,383112,825258,"May 08, 2020, 05:23 PM",sell
+99,PGNY,Payson Norman,Director,"May 06, 2020",$22.10,17000,375651,828212,"May 08, 2020, 05:23 PM",sell
+100,QADA_QADB,LOPKER PAMELA M,President,"May 08, 2020",$44.13,4000,176520,4179945,"May 08, 2020, 05:14 PM",sell
+1,SAIL,McClain Mark D.,CEO and President,"May 07, 2020",$20.00,15000,300000,840994,"May 08, 2020, 05:13 PM",sell
+2,CRWD,Carpenter Michael J.,"PRES., GLBAL SALES & FLD OPS","May 06, 2020",$72.23,30000,2166967,155452,"May 08, 2020, 05:11 PM",sell
+3,GCAP,Rose Nigel,Chief Financial Officer,"May 06, 2020",$6.46,3928,25369,91796,"May 08, 2020, 05:10 PM",sell
+4,SAIL,McMartin James Cameron,Director,"May 07, 2020",$19.75,15000,296206,121561,"May 08, 2020, 05:10 PM",sell
+5,SYK,Owen Katherine Ann,"VP, Strategy and IR","May 07, 2020",$190.81,3121,595504,1085,"May 08, 2020, 05:09 PM",sell
+6,QTS,Williams Chad L.,Chief Executive Officer,"May 06, 2020",$65.15,241808,15753792,191342,"May 08, 2020, 05:08 PM",sell
+7,ATEN,COCHRAN ROBERT D,EVP Legal & Corp Collaboration,"May 06, 2020",$6.68,2646,17675,199714,"May 08, 2020, 05:05 PM",sell
+8,ATEN,Reiss Gunter,VP Worldwide Marketing,"May 06, 2020",$6.68,1889,12619,143797,"May 08, 2020, 05:05 PM",sell
+9,ATEN,Constantino Thomas,"EVP, Chief Financial Officer","May 06, 2020",$6.68,2577,17214,204752,"May 08, 2020, 05:04 PM",sell
+10,ACLS,PUMA MARY G,President and CEO,"May 08, 2020",$26.13,75000,1959750,332541,"May 08, 2020, 05:04 PM",sell
+11,CRUS,Rhode Jason P,CEO,"May 07, 2020",$71.72,97148,6967464,211296,"May 08, 2020, 05:03 PM",sell
+12,GCAP,Rotsztain Diego,General Counsel and Secretary,"May 06, 2020",$6.46,3255,21019,126018,"May 08, 2020, 05:02 PM",sell
+13,DSPG,Levy Dror,VP and CFO,"May 06, 2020",$16.28,30807,501513,136000,"May 08, 2020, 05:02 PM",sell
+14,ATRC,CARREL MICHAEL H,"President, CEO, & Director","May 08, 2020",$45.00,25000,1125000,514147,"May 08, 2020, 05:02 PM",sell
+15,IDXX,AYERS JONATHAN W,Director,"May 06, 2020",$286.07,13600,3890552,109000,"May 08, 2020, 05:00 PM",sell
+16,IDXX,AYERS JONATHAN W,Director,"May 04, 2020",$268.34,15000,4025100,122600,"May 08, 2020, 05:00 PM",sell
+17,IDXX,AYERS JONATHAN W,Director,"May 07, 2020",$292.25,11000,3214750,98000,"May 08, 2020, 05:00 PM",sell
+18,CRM,Tallapragada Srinivas,Pres/Chief Engineering Officer,"May 07, 2020",$166.50,5000,832500,40107,"May 08, 2020, 04:55 PM",sell
+19,CARG,Steinert Langley,CEO and Chairman,"May 07, 2020",$25.23,21985,554604,1677575,"May 08, 2020, 04:54 PM",sell
+20,CARG,Steinert Langley,CEO and Chairman,"May 06, 2020",$24.67,1974,48701,245567,"May 08, 2020, 04:54 PM",sell
+21,CARG,Steinert Langley,CEO and Chairman,"May 06, 2020",$24.67,24011,592372,1712533,"May 08, 2020, 04:54 PM",sell
+22,CARG,Steinert Langley,CEO and Chairman,"May 07, 2020",$25.23,1808,45609,242692,"May 08, 2020, 04:54 PM",sell
+23,GSHD,Jones Robyn Mary Elizabeth,Director,"May 06, 2020",$57.08,1900,108447,234,"May 08, 2020, 04:53 PM",sell
+24,GSHD,Jones Robyn Mary Elizabeth,Director,"May 06, 2020",$57.08,7300,416675,898,"May 08, 2020, 04:53 PM",sell
+25,GSHD,Jones Robyn Mary Elizabeth,Director,"May 06, 2020",$57.08,18200,1038832,2238,"May 08, 2020, 04:53 PM",sell
+26,INCY,Dhanak Dashyant,EVP & Chief Scientific Officer,"May 06, 2020",$96.84,961,93063,19987,"May 08, 2020, 04:53 PM",sell
+27,CRM,Benioff Marc,Chair of the Board & CEO,"May 07, 2020",$169.39,10000,1693921,30117601,"May 08, 2020, 04:52 PM",sell
+28,CRM,Benioff Marc,Chair of the Board & CEO,"May 06, 2020",$164.32,10000,1643222,30115234,"May 08, 2020, 04:52 PM",sell
+29,NOVT,Glastra Matthijs,Chief Executive Officer,"May 07, 2020",$85.00,2500,212500,127407,"May 08, 2020, 04:50 PM",sell
+30,NSSC,HEVIA JORGE,Former Officer,"May 06, 2020",$21.31,38849,828000,110543,"May 08, 2020, 04:49 PM",sell
+31,NSSC,HEVIA JORGE,Former Officer,"May 08, 2020",$23.02,4554,104817,57117,"May 08, 2020, 04:49 PM",sell
+32,NSSC,HEVIA JORGE,Former Officer,"May 07, 2020",$21.06,24151,508671,60819,"May 08, 2020, 04:49 PM",sell
+33,GSHD,Jones Adrienne,10% Owner,"May 06, 2020",$59.00,3000,177000,0,"May 08, 2020, 04:49 PM",sell
+34,CRM,Hawkins Mark J,President and CFO,"May 06, 2020",$164.44,876,144049,16155,"May 08, 2020, 04:49 PM",sell
+35,GSHD,Lanni Elaine Romney Family Trust 2014,10% Owner,"May 06, 2020",$57.08,18200,1038832,2238,"May 08, 2020, 04:48 PM",sell
+36,GSHD,Desiree Robyn Coleman Family Trust 2014,10% Owner,"May 06, 2020",$57.08,1900,108447,234,"May 08, 2020, 04:47 PM",sell
+37,LITE,Sepe Matthew Joseph,Chief Accounting Officer,"May 07, 2020",$81.25,2896,235288,22275,"May 08, 2020, 04:47 PM",sell
+38,GSHD,Camille Lavaun Peterson Family Trust 2014,10% Owner,"May 06, 2020",$57.08,7300,416675,898,"May 08, 2020, 04:46 PM",sell
+39,TDY,MAIN SUE,Senior VP & CFO,"May 08, 2020",$331.57,8000,2652531,43961,"May 08, 2020, 04:46 PM",sell
+40,AMZN,STONESIFER PATRICIA Q,Director,"May 06, 2020",$2329.44,2200,5124768,4645,"May 08, 2020, 04:44 PM",sell
+41,MHH,Gupta Vivek,President and CEO,"May 06, 2020",$16.56,3033,50223,0,"May 08, 2020, 04:36 PM",sell
+42,QTRX,HRUSOVSKY E KEVIN,"Chairman, President & CEO","May 06, 2020",$27.09,5000,135457,1106268,"May 08, 2020, 04:35 PM",sell
+43,ORLY,JOHNSON GREGORY D,CEO & CO-PRESIDENT,"May 06, 2020",$400.30,3374,1350613,4360,"May 08, 2020, 04:35 PM",sell
+44,DISCA,MALONE JOHN C,Director,"May 08, 2020",$21.44,5229,112110,780591,"May 08, 2020, 04:34 PM",sell
+45,STRA,GRUSKY ROBERT R,Director,"May 07, 2020",$165.05,1362,224798,7322,"May 08, 2020, 04:33 PM",sell
+46,SQBG,"PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",10% Owner,"May 07, 2020",$0.28,575234,161034,7844993,"May 08, 2020, 04:31 PM",sell
+47,SQBG,"PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",10% Owner,"May 06, 2020",$0.29,46272,13419,8417047,"May 08, 2020, 04:31 PM",sell
+48,QTWO,Oruganti Bharath,"SVP, Service Delivery","May 07, 2020",$85.00,2412,205020,20576,"May 08, 2020, 04:29 PM",sell
+49,VRTX,Tatsis Ourania,"EVP, Chief Regulatory Officer","May 06, 2020",$272.70,966,263431,13661,"May 08, 2020, 04:28 PM",sell
+50,ASGN,HOLMAN JONATHAN S,Director,"May 06, 2020",$52.20,1197,62483,14005,"May 08, 2020, 04:27 PM",sell
+51,ASGN,HOLMAN JONATHAN S,Director,"May 08, 2020",$54.42,500,27210,13505,"May 08, 2020, 04:27 PM",sell
+52,VRTX,Silva Paul M,SVP & Controller,"May 06, 2020",$272.74,1076,293472,15929,"May 08, 2020, 04:26 PM",sell
+53,TNDM,Allen Dick,Director,"May 07, 2020",$89.00,500,44500,1000,"May 08, 2020, 04:25 PM",sell
+54,TNDM,Allen Dick,Director,"May 07, 2020",$89.00,2500,222500,7526,"May 08, 2020, 04:25 PM",sell
+55,TNDM,Allen Dick,Director,"May 07, 2020",$89.00,500,44500,1000,"May 08, 2020, 04:25 PM",sell
+56,VRTX,SACHS BRUCE I,Director,"May 07, 2020",$269.80,45000,12140805,53610,"May 08, 2020, 04:24 PM",sell
+57,TNDM,TWOMEY CHRISTOPHER J,Director,"May 07, 2020",$90.00,2500,225001,22500,"May 08, 2020, 04:24 PM",sell
+58,TNDM,TWOMEY CHRISTOPHER J,Director,"May 07, 2020",$90.04,5000,450214,45000,"May 08, 2020, 04:24 PM",sell
+59,PINS,Sciarra Paul Cahill,10% Owner,"Feb 04, 2020",$22.65,800000,18120081,0,"May 08, 2020, 04:24 PM",sell
+60,TNDM,Vosseller Leigh,EVP & CHIEF FINANCIAL OFFICER,"May 07, 2020",$90.07,10000,900746,3265,"May 08, 2020, 04:23 PM",sell
+61,VRTX,Sachdev Amit,"EVP, Chief Patient Officer","May 06, 2020",$275.28,669,184162,35103,"May 08, 2020, 04:23 PM",sell
+62,VRTX,Parini Michael,"EVP, Chief Adm, Leg & BD Off","May 06, 2020",$272.64,1222,333165,27787,"May 08, 2020, 04:22 PM",sell
+63,CHTR,Bickham John,President and COO,"May 06, 2020",$505.69,68830,34806643,31130,"May 08, 2020, 04:21 PM",sell
+64,VRTX,LEIDEN JEFFREY M,Executive Chairman,"May 07, 2020",$269.78,94369,25459013,129298,"May 08, 2020, 04:20 PM",sell
+65,ACLS,Lawson Douglas A.,"EVP, Corporate Mktg & Strategy","May 08, 2020",$26.00,8714,226564,45120,"May 08, 2020, 04:19 PM",sell
+66,ABG,Hult David W,President & CEO,"May 07, 2020",$66.06,10113,668081,70567,"May 08, 2020, 04:19 PM",sell
+67,ABG,Hult David W,President & CEO,"May 06, 2020",$65.06,4887,317948,80092,"May 08, 2020, 04:19 PM",sell
+68,VRTX,Kewalramani Reshma,CEO & President,"May 06, 2020",$272.85,2074,565882,28284,"May 08, 2020, 04:19 PM",sell
+69,EDIT,Albright Charles,EVP/Chief Scientific Officer,"May 06, 2020",$25.28,151,3817,31373,"May 08, 2020, 04:17 PM",sell
+70,VRTX,ALTSHULER DAVID,"EVP, Global Research and CSO","May 06, 2020",$272.66,1222,333195,29853,"May 08, 2020, 04:17 PM",sell
+71,TECH,WIENS HAROLD J,Director,"May 06, 2020",$250.00,4260,1065000,5221,"May 08, 2020, 04:17 PM",sell
+72,RMNI,Rowe David W.,EVP and CMO,"May 07, 2020",$4.23,5556,23496,75942,"May 08, 2020, 04:16 PM",sell
+73,RMNI,Rowe David W.,EVP and CMO,"May 06, 2020",$4.16,4205,17508,75942,"May 08, 2020, 04:16 PM",sell
+74,RPD,Kaes Peter,"SVP, General Counsel","May 07, 2020",$49.90,5000,249500,98026,"May 08, 2020, 04:16 PM",sell
+75,STX,LUCZO STEPHEN J,Director,"May 06, 2020",$47.34,5000,236705,570666,"May 08, 2020, 04:12 PM",sell
+76,CSGP,KLEIN MICHAEL R,Director,"May 07, 2020",$636.51,11361,7231390,231414,"May 08, 2020, 04:11 PM",sell
+77,CSGP,KLEIN MICHAEL R,Director,"May 06, 2020",$647.52,3639,2356325,242775,"May 08, 2020, 04:11 PM",sell
+78,SC,Alvarez Juan Carlos,Director,"May 06, 2020",$15.05,13291,200030,19347,"May 08, 2020, 04:10 PM",sell
+79,BAND,Matton W. Christopher,General Counsel,"May 07, 2020",$105.86,60000,6351784,62845,"May 08, 2020, 04:08 PM",sell
+80,BDSI,ODONNELL FRANCIS E JR,Director,"May 06, 2020",$4.53,11250,50963,605538,"May 08, 2020, 04:06 PM",sell
+81,IPGP,STUKALIN FELIX I,"SVP, North America Operations","May 07, 2020",$147.17,8000,1177388,28198,"May 08, 2020, 04:06 PM",sell
+82,IPGP,Ness Trevor,"SVP, Worldwide Sales & Mrkting","May 07, 2020",$146.82,2068,303632,22044,"May 08, 2020, 04:04 PM",sell
+83,REGN,Van Plew Daniel P,EVP & General Mgr Industrial O,"May 07, 2020",$564.32,39583,22337306,67734,"May 08, 2020, 04:04 PM",sell
+84,BAND,Hoffman Jeffrey A.,Chief Financial Officer,"May 07, 2020",$105.61,10415,1099980,13066,"May 08, 2020, 04:03 PM",sell
+85,REGN,Tessier-Lavigne Marc,Director,"May 06, 2020",$563.97,15000,8459496,15805,"May 08, 2020, 04:03 PM",sell
+86,REGN,Zoghbi Huda Y,Director,"May 07, 2020",$566.52,5118,2899461,4039,"May 08, 2020, 04:03 PM",sell
+87,SCPE,Polar Asset Management Partners Inc.,10% Owner,"May 06, 2020",$9.95,500000,4975000,1500000,"May 08, 2020, 04:03 PM",sell
+88,AAOI,Murry Stefan J.,Chief Financial Officer,"May 07, 2020",$12.00,1000,12000,105936,"May 08, 2020, 04:02 PM",sell
+89,SAM,KOCH C JAMES,Chairman,"May 01, 2020",$464.30,11000,5107300,54245,"May 08, 2020, 04:01 PM",sell
+90,SAM,Fisher Cynthia A,Director,"May 01, 2020",$464.30,11000,5107300,54245,"May 08, 2020, 04:01 PM",sell
+91,AAOI,Lin Chih-Hsiang (Thompson),President and CEO,"May 07, 2020",$11.20,7788,87226,845713,"May 08, 2020, 04:01 PM",sell
+92,WWE,Levesque Stephanie,Chief Brand Officer,"May 06, 2020",$44.29,23255,1029964,144952,"May 08, 2020, 04:01 PM",sell
+93,LKQ,Hanser Robert M.,Director,"May 06, 2020",$24.51,1212,29700,11580,"May 08, 2020, 04:00 PM",sell
+94,TYL,MARR JOHN S JR,Executive Chairman,"May 07, 2020",$332.76,20000,6655160,271467,"May 08, 2020, 03:57 PM",sell
+95,TYL,MARR JOHN S JR,Executive Chairman,"May 06, 2020",$326.09,30000,9782796,271467,"May 08, 2020, 03:57 PM",sell
+96,MORN,Mansueto Joseph D,Executive Chairman,"May 06, 2020",$146.96,9128,1341464,20481782,"May 08, 2020, 03:46 PM",sell
+97,MORN,Mansueto Joseph D,Executive Chairman,"May 07, 2020",$145.82,5059,737728,20474018,"May 08, 2020, 03:46 PM",sell
+98,SEDG,Faier Ronen,Chief Financial Officer,"May 06, 2020",$125.54,10000,1255400,83674,"May 08, 2020, 03:45 PM",sell
+99,EL,FORESTER LYNN,Director,"May 08, 2020",$174.07,10000,1740700,4000,"May 08, 2020, 03:24 PM",sell
+100,DOFSQ,Gaffney Paul G,Director,"May 07, 2020",$0.26,9000,2340,0,"May 08, 2020, 03:17 PM",sell
+1,MGPI,Mansinne Andrew P,Vice President,"May 08, 2020",$37.38,1000,37380,5895,"May 08, 2020, 03:07 PM",sell
+2,EXPO,James Bradley A,Group Vice President,"May 06, 2020",$66.14,2203,145713,7490,"May 08, 2020, 03:05 PM",sell
+3,BY,BIGGAM MEGAN,EVP Head of Retail Banking,"May 06, 2020",$10.53,270,2842,6157,"May 08, 2020, 02:51 PM",sell
+4,BDX,Fraser Claire,Director,"May 08, 2020",$256.56,771,197808,20168,"May 08, 2020, 02:29 PM",sell
+5,ORCC,REGENTS OF THE UNIVERSITY OF CALIFORNIA,10% Owner,"May 07, 2020",$13.15,143000,1880164,43685483,"May 08, 2020, 02:13 PM",sell
+6,SNFCA,MOODY H. CRAIG,Director,"Apr 28, 2020",$5.57,2028,11294,34610,"May 08, 2020, 01:03 PM",sell
+7,SNFCA,MOODY H. CRAIG,Director,"Apr 27, 2020",$5.04,5000,25200,37638,"May 08, 2020, 01:03 PM",sell
+8,SNFCA,MOODY H. CRAIG,Director,"Apr 24, 2020",$5.00,4105,20525,41638,"May 08, 2020, 01:03 PM",sell
+9,LFUS,Rutz Michael P,SVP & GM Semiconductor Product,"May 08, 2020",$143.67,732,105166,5324,"May 08, 2020, 12:15 PM",sell
+10,LFUS,Rutz Michael P,SVP & GM Semiconductor Product,"May 07, 2020",$142.00,7408,1051936,5324,"May 08, 2020, 12:15 PM",sell
+11,CRL,Smith David Ross,Corporate Executive VP & CFO,"May 07, 2020",$150.00,1884,282600,18591,"May 08, 2020, 10:48 AM",sell
+12,BYND,SOTO CARI,Chief People Officer,"May 06, 2020",$110.32,104,11473,10993,"May 07, 2020, 09:50 PM",sell
+13,UBER,Camp Garrett,Director,"May 07, 2020",$30.54,170000,5192339,46088735,"May 07, 2020, 09:42 PM",sell
+14,UBER,Camp Garrett,Director,"May 06, 2020",$27.52,170000,4679045,46234211,"May 07, 2020, 09:42 PM",sell
+15,UBER,Camp Garrett,Director,"May 05, 2020",$28.32,170000,4815226,46440988,"May 07, 2020, 09:42 PM",sell
+16,SYK,Owen Katherine Ann,"VP, Strategy and IR","May 05, 2020",$186.79,9149,1708910,1085,"May 07, 2020, 09:18 PM",sell
+17,RUN,STEELE JEANNA,General Counsel,"May 05, 2020",$13.14,333,4375,69976,"May 07, 2020, 09:16 PM",sell
+18,PINS,Silbermann Benjamin,"Chairman, President, CEO, Co-F","May 05, 2020",$21.43,66500,1424915,0,"May 07, 2020, 09:10 PM",sell
+19,PLMR,Christianson Jon,Chief Operating Officer,"May 06, 2020",$61.00,1500,91500,121770,"May 07, 2020, 09:05 PM",sell
+20,AMED,Ginn Scott G,Chief Financial Officer,"May 05, 2020",$175.56,9000,1580069,25345,"May 07, 2020, 09:01 PM",sell
+21,AMED,Kemmerly David L,See Remarks,"May 05, 2020",$175.32,23437,4108970,40437,"May 07, 2020, 09:00 PM",sell
+22,SILK,WARBURG PINCUS & CO.,10% Owner,"May 05, 2020",$39.00,4885078,190518042,1021223,"May 07, 2020, 08:50 PM",sell
+23,SILK,"WP X Finance, L.P.",10% Owner,"May 05, 2020",$39.00,4885078,190518042,1021223,"May 07, 2020, 08:50 PM",sell
+24,AMGN,Williams R Sanders,Director,"May 06, 2020",$237.31,425,100857,5409,"May 07, 2020, 08:49 PM",sell
+25,EVER,Birnbaum Seth,President and CEO,"May 05, 2020",$50.38,9893,498378,560941,"May 07, 2020, 08:40 PM",sell
+26,APO,ROWAN MARC J,Senior Managing Director,"May 05, 2020",$41.07,214407,8804993,1756259,"May 07, 2020, 08:35 PM",sell
+27,APO,ROWAN MARC J,Senior Managing Director,"May 07, 2020",$42.71,142847,6101641,1405927,"May 07, 2020, 08:35 PM",sell
+28,APO,ROWAN MARC J,Senior Managing Director,"May 06, 2020",$41.47,174972,7255922,1574976,"May 07, 2020, 08:35 PM",sell
+29,AMK,Goldman Charles G,President and CEO,"May 05, 2020",$23.77,11819,280906,2166071,"May 07, 2020, 08:21 PM",sell
+30,AMK,Goldman Charles G,President and CEO,"May 07, 2020",$24.47,30434,744688,2085528,"May 07, 2020, 08:21 PM",sell
+31,AMK,Goldman Charles G,President and CEO,"May 06, 2020",$22.80,48322,1101696,2125452,"May 07, 2020, 08:21 PM",sell
+32,CCXI,Schall Thomas J.,President and CEO,"May 05, 2020",$55.01,8851,486851,2268557,"May 07, 2020, 08:11 PM",sell
+33,SEAC,Kielczewski Marek,Chief Technology Officer,"May 05, 2020",$2.68,13869,37169,434656,"May 07, 2020, 08:03 PM",sell
+34,LASR,Bareket Ran,Chief Financial Officer,"May 07, 2020",$20.19,885,17868,98399,"May 07, 2020, 08:02 PM",sell
+35,DRNA,Brown Bob D,See Remarks,"May 05, 2020",$21.00,8185,171885,5000,"May 07, 2020, 08:01 PM",sell
+36,APPF,Kane Ida Kathleen,Chief Financial Officer,"May 05, 2020",$108.25,5000,541259,4800,"May 07, 2020, 08:00 PM",sell
+37,SGEN,WELCH DANIEL G,Director,"May 06, 2020",$164.79,15000,2471919,62222,"May 07, 2020, 07:59 PM",sell
+38,SGEN,WELCH DANIEL G,Director,"May 05, 2020",$166.73,20000,3334641,86958,"May 07, 2020, 07:59 PM",sell
+39,SGEN,SIEGALL CLAY B,President and CEO,"May 06, 2020",$165.23,25402,4197062,739795,"May 07, 2020, 07:59 PM",sell
+40,SGEN,SIEGALL CLAY B,President and CEO,"May 05, 2020",$166.08,24598,4085341,761170,"May 07, 2020, 07:59 PM",sell
+41,CCXI,Cappel Markus J.,Chief Bus. Officer & Treasurer,"May 05, 2020",$55.01,8860,487345,76247,"May 07, 2020, 07:59 PM",sell
+42,SGEN,ROMP CHARLES R,"EVP, Commercial","May 05, 2020",$166.18,5056,840226,54575,"May 07, 2020, 07:59 PM",sell
+43,SGEN,AKKARAJU SRINIVAS,Director,"May 05, 2020",$167.26,8500,1421710,40168,"May 07, 2020, 07:58 PM",sell
+44,EHTH,Goldberg Michael,Director,"May 05, 2020",$110.00,2000,220000,41189,"May 07, 2020, 07:53 PM",sell
+45,EHTH,Goldberg Michael,Director,"May 07, 2020",$115.00,4750,546250,36439,"May 07, 2020, 07:53 PM",sell
+46,CDNA,HAGSTROM WILLIAM A,Director,"May 06, 2020",$29.12,15000,436829,15385,"May 07, 2020, 07:29 PM",sell
+47,BL,SMITH GRAHAM,Director,"May 05, 2020",$61.01,4000,244026,24065,"May 07, 2020, 07:26 PM",sell
+48,BL,Partin Mark,Chief Financial Officer,"May 05, 2020",$61.02,5000,305089,102206,"May 07, 2020, 07:23 PM",sell
+49,BL,Villanova Patrick,Chief Accounting Officer,"May 05, 2020",$60.98,32750,1997038,31041,"May 07, 2020, 07:21 PM",sell
+50,SMAR,Hamilton Kara,Chief People & Culture Officer,"May 05, 2020",$54.21,10000,542100,3452,"May 07, 2020, 07:21 PM",sell
+51,SMAR,Farrell Eugene,Chief Product Officer,"May 05, 2020",$54.28,29600,1606688,59559,"May 07, 2020, 07:18 PM",sell
+52,SMAR,FREI BRENT,Director,"May 05, 2020",$55.14,100000,5514290,4884041,"May 07, 2020, 07:15 PM",sell
+53,GRTX,HOLMLUND JON T,Chief Medical Officer,"May 07, 2020",$12.00,2059,24709,0,"May 07, 2020, 07:12 PM",sell
+54,GRTX,HOLMLUND JON T,Chief Medical Officer,"May 06, 2020",$12.00,1489,17868,0,"May 07, 2020, 07:12 PM",sell
+55,GRTX,HOLMLUND JON T,Chief Medical Officer,"May 05, 2020",$12.16,3064,37258,0,"May 07, 2020, 07:12 PM",sell
+56,SMAR,MADER MARK PATRICK,President and CEO,"May 06, 2020",$55.26,40000,2210582,765163,"May 07, 2020, 07:09 PM",sell
+57,APPF,RAUTH WILLIAM R III,Director,"May 06, 2020",$114.14,20353,2323071,14180,"May 07, 2020, 07:09 PM",sell
+58,APPF,RAUTH WILLIAM R III,Director,"May 05, 2020",$112.16,19647,2203619,26173,"May 07, 2020, 07:09 PM",sell
+59,CLX,Barral Diego J,"SVP - GM, International","May 05, 2020",$203.60,11031,2245962,9006,"May 07, 2020, 07:01 PM",sell
+60,HLIX,HELIX OPPORTUNITIES LLC,10% Owner,"May 05, 2020",$0.13,5000,650,22117228,"May 07, 2020, 07:01 PM",sell
+61,HLIX,HELIX OPPORTUNITIES LLC,10% Owner,"May 06, 2020",$0.13,5000,650,22112228,"May 07, 2020, 07:01 PM",sell
+62,SMAR,PORRINI PAUL,Chief Legal Officer & GC,"May 05, 2020",$55.01,30000,1650231,5588,"May 07, 2020, 06:56 PM",sell
+63,DDOG,Fougere Dan,Chief Revenue Officer,"May 07, 2020",$50.02,21486,1074627,15000,"May 07, 2020, 06:55 PM",sell
+64,DDOG,Fougere Dan,Chief Revenue Officer,"May 05, 2020",$47.09,100000,4708550,15000,"May 07, 2020, 06:55 PM",sell
+65,FB,Wehner David M.,Chief Financial Officer,"May 05, 2020",$209.90,8000,1679200,24484,"May 07, 2020, 06:54 PM",sell
+66,TPTX,Cui Jingrong Jean,Director,"May 06, 2020",$52.94,18500,979323,668811,"May 07, 2020, 06:52 PM",sell
+67,TPTX,Cui Jingrong Jean,Director,"May 05, 2020",$54.02,18500,999426,689385,"May 07, 2020, 06:52 PM",sell
+68,TPTX,Cui Jingrong Jean,Director,"May 07, 2020",$52.86,18500,977886,651077,"May 07, 2020, 06:52 PM",sell
+69,USLM,CARDIN RICHARD W,Director,"May 07, 2020",$79.00,500,39500,3566,"May 07, 2020, 06:50 PM",sell
+70,FB,Newstead Jennifer,VP and General Counsel,"May 05, 2020",$207.43,194,40241,406,"May 07, 2020, 06:49 PM",sell
+71,W,Oblak Steve,Chief Merchandising Officer,"May 05, 2020",$174.32,12628,2201313,147638,"May 07, 2020, 06:44 PM",sell
+72,W,Macri Edmond,Chief Product/Marketing,"May 05, 2020",$174.32,300,52296,5947,"May 07, 2020, 06:42 PM",sell
+73,W,FLEISHER MICHAEL D,Chief Financial Officer,"May 05, 2020",$174.32,26016,4535109,120444,"May 07, 2020, 06:39 PM",sell
+74,DVAX,Janssen Robert,Senior Vice President,"May 05, 2020",$4.43,9000,39870,220266,"May 07, 2020, 06:37 PM",sell
+75,DVAX,Janssen Robert,Senior Vice President,"May 06, 2020",$4.52,28000,126560,192266,"May 07, 2020, 06:37 PM",sell
+76,TRUP,Tooth Margaret,Chief Revenue Officer,"May 05, 2020",$29.55,1750,51712,13555,"May 07, 2020, 06:25 PM",sell
+77,REGN,RYAN ARTHUR F,Director,"May 06, 2020",$550.88,50124,27612508,78966,"May 07, 2020, 06:22 PM",sell
+78,KNX,KNIGHT KEVIN P,Executive Chairman,"May 07, 2020",$37.76,13200,498412,2237215,"May 07, 2020, 06:03 PM",sell
+79,KNX,KNIGHT KEVIN P,Executive Chairman,"May 06, 2020",$38.12,22973,875751,2250415,"May 07, 2020, 06:03 PM",sell
+80,KNX,KNIGHT KEVIN P,Executive Chairman,"May 05, 2020",$38.53,13827,532803,2273388,"May 07, 2020, 06:03 PM",sell
+81,GILD,Pletcher Brett A,"EVP,Corp Affairs & Gen Counsel","May 05, 2020",$79.23,13210,1046640,14644,"May 07, 2020, 06:02 PM",sell
+82,CHTR,Winfrey Christopher L,Chief Financial Officer,"May 06, 2020",$508.51,9239,4698124,79122,"May 07, 2020, 05:58 PM",sell
+83,CHTR,Winfrey Christopher L,Chief Financial Officer,"May 05, 2020",$516.44,19552,10097435,88361,"May 07, 2020, 05:58 PM",sell
+84,ILMN,FLATLEY JAY T,Director,"May 05, 2020",$310.37,3000,931110,245970,"May 07, 2020, 05:57 PM",sell
+85,USNA,WENTZ MYRON W,Director,"May 05, 2020",$80.75,641270,51782553,9085743,"May 07, 2020, 05:57 PM",sell
+86,HLIX,VENEGAS ZACHARY L,Chief Executive Officer,"May 06, 2020",$0.13,5000,650,22112228,"May 07, 2020, 05:57 PM",sell
+87,HLIX,VENEGAS ZACHARY L,Chief Executive Officer,"May 05, 2020",$0.13,5000,650,22117228,"May 07, 2020, 05:57 PM",sell
+88,SWI,Kim W. Joseph,"EVP, Engineering & CTO","May 05, 2020",$17.38,23317,405249,482649,"May 07, 2020, 05:45 PM",sell
+89,SWI,Pagliuca John,"EVP & President, MSP","May 05, 2020",$17.27,92500,1597883,308112,"May 07, 2020, 05:45 PM",sell
+90,SWI,Gardiner David,"EVP & President, ITOM","May 05, 2020",$17.27,75000,1295250,713209,"May 07, 2020, 05:44 PM",sell
+91,SWI,Gardiner David,"EVP & President, ITOM","May 07, 2020",$17.76,30000,532800,683209,"May 07, 2020, 05:44 PM",sell
+92,HLIX,Ogur Scott Matthew,Chief Financial Officer,"May 06, 2020",$0.13,5000,650,22112228,"May 07, 2020, 05:34 PM",sell
+93,HLIX,Ogur Scott Matthew,Chief Financial Officer,"May 05, 2020",$0.13,5000,650,22117128,"May 07, 2020, 05:34 PM",sell
+94,ZBRA,Cho Michael,"SVP, Corporate Development","May 06, 2020",$232.17,1029,238903,8337,"May 07, 2020, 05:33 PM",sell
+95,TCDA,Otto Dawn Parsell,"EVP, Clinical Development","May 05, 2020",$30.14,1250,37680,255,"May 07, 2020, 05:33 PM",sell
+96,KMT,Keating Michelle R,"VP, Sec. and General Counsel","May 06, 2020",$24.24,9000,218160,10200,"May 07, 2020, 05:33 PM",sell
+97,QSR,Athayde Felipe A,"Brand Pres., Popeyes, Americas","May 05, 2020",$49.41,43476,2148149,20953,"May 07, 2020, 05:29 PM",sell
+98,NEOG,Lilly Jason Warren,Vice President,"May 05, 2020",$64.00,885,56640,10409,"May 07, 2020, 05:24 PM",sell
+99,HLIX,HELIX OPPORTUNITIES LLC,10% Owner,"May 06, 2020",$0.13,5000,650,22112128,"May 07, 2020, 05:21 PM",sell
+100,HLIX,HELIX OPPORTUNITIES LLC,10% Owner,"May 05, 2020",$0.13,5000,650,22117128,"May 07, 2020, 05:21 PM",sell

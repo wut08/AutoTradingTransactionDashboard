@@ -1,0 +1,2532 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0415.1946                               -->
+<workbook original-version='18.1' source-build='2020.2.0 (20202.20.0415.1946)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <ISO8601PeriodTypes />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.SingleValuePerNestSorting.true...SingleValuePerNestSorting />
+    <SpecificWebTargetsForActions />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='InsiderTdashboard' path='/workbooks' revision='2.4' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='InsiderPrices' inline='true' name='federated.1mjwmml0k1157j11irurd069gabm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='InsiderPrices' name='textscan.0r76etc045g89t15xjvgk1kjvpah'>
+            <connection class='textscan' directory='C:/Users/Tong/Desktop/insiderstocks' filename='InsiderPrices.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='StockSectors' name='textscan.0iwfu6d1iz6lk01dx7rbs1cnfr5v'>
+            <connection class='textscan' directory='C:/Users/Tong/Desktop/insiderstocks' filename='StockSectors.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[InsiderPrices.csv].[Symbol]' />
+              <expression op='[StockSectors.csv].[Ticker]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.0r76etc045g89t15xjvgk1kjvpah' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Symbol' ordinal='1' />
+              <column datatype='string' name='Owner' ordinal='2' />
+              <column datatype='string' name='Relationship' ordinal='3' />
+              <column datatype='date' name='Date' ordinal='4' />
+              <column datatype='real' name='Cost' ordinal='5' />
+              <column datatype='integer' name='# Shares' ordinal='6' />
+              <column datatype='integer' name='Value($)' ordinal='7' />
+              <column datatype='integer' name='Total Shares' ordinal='8' />
+              <column datatype='datetime' date-parse-format='MMM dd, yyyy, hh:mm a' name='Filing' ordinal='9' />
+              <column datatype='string' name='Type' ordinal='10' />
+              <column datatype='real' name='currentprice' ordinal='11' />
+              <column datatype='real' name='movingaverage' ordinal='12' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0iwfu6d1iz6lk01dx7rbs1cnfr5v' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Ticker' ordinal='0' />
+              <column datatype='string' name='0' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[InsiderPrices.csv].[Symbol]' />
+              <expression op='[StockSectors.csv].[Ticker]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.0r76etc045g89t15xjvgk1kjvpah' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Symbol' ordinal='1' />
+              <column datatype='string' name='Owner' ordinal='2' />
+              <column datatype='string' name='Relationship' ordinal='3' />
+              <column datatype='date' name='Date' ordinal='4' />
+              <column datatype='real' name='Cost' ordinal='5' />
+              <column datatype='integer' name='# Shares' ordinal='6' />
+              <column datatype='integer' name='Value($)' ordinal='7' />
+              <column datatype='integer' name='Total Shares' ordinal='8' />
+              <column datatype='datetime' date-parse-format='MMM dd, yyyy, hh:mm a' name='Filing' ordinal='9' />
+              <column datatype='string' name='Type' ordinal='10' />
+              <column datatype='real' name='currentprice' ordinal='11' />
+              <column datatype='real' name='movingaverage' ordinal='12' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0iwfu6d1iz6lk01dx7rbs1cnfr5v' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Ticker' ordinal='0' />
+              <column datatype='string' name='0' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Symbol]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Symbol</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Owner]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Owner</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Relationship]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Relationship</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Cost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Shares]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias># Shares</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value($)]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Value($)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Shares]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Total Shares</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filing</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Filing]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Filing</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>currentprice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[currentprice]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>currentprice</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movingaverage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[movingaverage]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>movingaverage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ticker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ticker]</local-name>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias>Ticker</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[0]</local-name>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias>0</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+      <column caption='Ticker URL' datatype='string' name='[Calculation_75153868065382400]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;sg.finance.yahoo.com/chart/&quot; + [Symbol]' />
+      </column>
+      <column caption='Total Value Lookup' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Calculation_75153868077248513]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ZN(LOOKUP(sum([Value($)]),0))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Cost per Share' datatype='real' name='[Cost]' role='measure' type='quantitative' />
+      <column caption='Date of Transaction' datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Filing Date' datatype='datetime' name='[Filing]' role='dimension' type='ordinal' />
+      <column caption='Trader Name' datatype='string' name='[Owner]' role='dimension' type='nominal' />
+      <column caption='Relationship to Company' datatype='string' name='[Relationship]' role='dimension' type='nominal' />
+      <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+      <column caption='Ticker URL (copy)' datatype='string' name='[Ticker URL (copy)_978688543499317248]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_75153868065382400]) THEN &apos;  &apos;&#13;&#10;ELSE &quot;https://&quot;+STR([Calculation_75153868065382400])&#13;&#10;END' />
+      </column>
+      <column caption='Ticker1' datatype='string' hidden='true' name='[Ticker]' role='dimension' type='nominal' />
+      <column caption='Total Shares Remaining' datatype='integer' name='[Total Shares]' role='measure' type='quantitative' />
+      <column caption='Transaction Type' datatype='string' name='[Type]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;buy&quot;' value='Buy' />
+          <alias key='&quot;sell&quot;' value='Sell' />
+        </aliases>
+      </column>
+      <column caption='Total Transaction Values' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Value($)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='InsiderPrices.csv' datatype='table' name='[__tableau_internal_object_id__].[InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC]' role='measure' type='quantitative' />
+      <column caption='Current Price' datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[currentprice]' role='measure' type='quantitative' />
+      <column caption='Moving Average' datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[movingaverage]' role='measure' type='quantitative' />
+      <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Sector)' hidden='true' name='[Action (Sector)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[0]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Tong/Desktop/insiderstocks/InsiderPrices.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='05/10/2020 05:57:18 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='InsiderPrices' increment-value='%null%' refresh-type='create' rows-inserted='601' timestamp-start='2020-05-10 17:57:18.279' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Symbol</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Symbol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Symbol</remote-alias>
+              <ordinal>0</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>285</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner</remote-alias>
+              <ordinal>1</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>420</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relationship</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Relationship]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relationship</remote-alias>
+              <ordinal>2</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>149</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cost</remote-alias>
+              <ordinal>4</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>493</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name># Shares</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[# Shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias># Shares</remote-alias>
+              <ordinal>5</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value($)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Value($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value($)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>563</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Shares</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Shares</remote-alias>
+              <ordinal>7</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>547</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Filing</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Filing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Filing</remote-alias>
+              <ordinal>8</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>329</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>9</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>currentprice</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[currentprice]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>currentprice</remote-alias>
+              <ordinal>10</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>280</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>movingaverage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[movingaverage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>movingaverage</remote-alias>
+              <ordinal>11</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>284</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>0</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[0]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>0</remote-alias>
+              <ordinal>12</ordinal>
+              <family>StockSectors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+        <filter class='categorical' column='[Symbol]' filter-group='2'>
+          <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+            <groupfilter function='level-members' level='[Symbol]' />
+            <groupfilter function='member' level='[Symbol]' member='&quot;QADA_QADB&quot;' />
+          </groupfilter>
+        </filter>
+        <filter class='categorical' column='[none:Symbol:nk]'>
+          <groupfilter function='level-members' level='[none:Symbol:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        </filter>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:0:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;automotive-aftermarket&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;food-retail&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;medical-specialties&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;semiconductors&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;electronic-components&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;internet-retail&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;pharmaceuticals-other&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;air-freight-couriers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;environmental-services&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;life-health-insurance&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;recreational-products&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;cable-satellite-tv&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;home-improvement-chains&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;multi-line-insurance&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;telecommunications-equipment&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;beverages-alcoholic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;forest-products&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;miscellaneous-commercial-services&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;specialty-insurance&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;airlines&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;finance-rental-leasing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;major-banks&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;regional-banks&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;electric-utilities&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;information-technology-services&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;personnel-services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;advertising-marketing-services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;electronic-equipment-instruments&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;internet-software-services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;property-casualty-insurance&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;construction-materials&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;industrial-machinery&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;other-consumer-services&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;wholesale-distributors&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;apparel-footwear&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;financial-conglomerates&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;managed-health-care&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;restaurants&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;chemicals-specialty&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;hospital-nursing-management&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;office-equipment-supplies&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;textiles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;computer-communications&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;hotels-resorts-cruise-lines&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;oil-refining-marketing&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;trucking&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;data-processing-services&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;industrial-specialties&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;packaged-software&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;electrical-products&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;insurance-brokers-services&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;pharmaceuticals-major&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;biotechnology&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;gas-distributors&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;motor-vehicles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;specialty-stores&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;auto-parts-oem&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;food-major-diversified&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;medical-nursing-services&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;savings-banks&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;aerospace-defense&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;electronic-production-equipment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;investment-banks-brokers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;real-estate-development&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;computer-peripherals&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;household-personal-care&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;oilfield-services-equipment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;trucks-construction-farm-machinery&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;building-products&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;home-furnishings&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;movies-entertainment&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;steel&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;agricultural-commodities-milling&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;engineering-construction&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;investment-managers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;real-estate-investment-trusts&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[Symbol]' filter-group='2'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[Symbol]' />
+          <groupfilter function='member' level='[Symbol]' member='&quot;QADA_QADB&quot;' />
+        </groupfilter>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='InsiderPrices.csv' id='InsiderPrices.csv_102EF888B12E4AA6ACA4457C1FC846EC'>
+            <properties context=''>
+              <relation join='left' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[InsiderPrices.csv].[Symbol]' />
+                    <expression op='[StockSectors.csv].[Ticker]' />
+                  </expression>
+                </clause>
+                <relation connection='textscan.0r76etc045g89t15xjvgk1kjvpah' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Symbol' ordinal='1' />
+                    <column datatype='string' name='Owner' ordinal='2' />
+                    <column datatype='string' name='Relationship' ordinal='3' />
+                    <column datatype='date' name='Date' ordinal='4' />
+                    <column datatype='real' name='Cost' ordinal='5' />
+                    <column datatype='integer' name='# Shares' ordinal='6' />
+                    <column datatype='integer' name='Value($)' ordinal='7' />
+                    <column datatype='integer' name='Total Shares' ordinal='8' />
+                    <column datatype='datetime' date-parse-format='MMM dd, yyyy, hh:mm a' name='Filing' ordinal='9' />
+                    <column datatype='string' name='Type' ordinal='10' />
+                    <column datatype='real' name='currentprice' ordinal='11' />
+                    <column datatype='real' name='movingaverage' ordinal='12' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0iwfu6d1iz6lk01dx7rbs1cnfr5v' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='string' name='Ticker' ordinal='0' />
+                    <column datatype='string' name='0' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='StockSectors+' inline='true' name='federated.0jfy0hm0dmpesa1e8c0oz173rp5f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='StockSectors' name='textscan.0vfh7bd0ky2wah1gd36d31dapo9n'>
+            <connection class='textscan' directory='C:/Users/Tong/Desktop/insiderstocks' filename='StockSectors.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[InsiderPrices.csv].[Symbol]' />
+              <expression op='[StockSectors.csv].[Ticker]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Symbol' ordinal='1' />
+              <column datatype='string' name='Owner' ordinal='2' />
+              <column datatype='string' name='Relationship' ordinal='3' />
+              <column datatype='date' name='Date' ordinal='4' />
+              <column datatype='real' name='Cost' ordinal='5' />
+              <column datatype='integer' name='# Shares' ordinal='6' />
+              <column datatype='integer' name='Value($)' ordinal='7' />
+              <column datatype='integer' name='Total Shares' ordinal='8' />
+              <column datatype='string' name='Filing' ordinal='9' />
+              <column datatype='string' name='Type' ordinal='10' />
+              <column datatype='real' name='currentprice' ordinal='11' />
+              <column datatype='real' name='movingaverage' ordinal='12' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Ticker' ordinal='0' />
+              <column datatype='string' name='0' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[InsiderPrices.csv].[Symbol]' />
+              <expression op='[StockSectors.csv].[Ticker]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Symbol' ordinal='1' />
+              <column datatype='string' name='Owner' ordinal='2' />
+              <column datatype='string' name='Relationship' ordinal='3' />
+              <column datatype='date' name='Date' ordinal='4' />
+              <column datatype='real' name='Cost' ordinal='5' />
+              <column datatype='integer' name='# Shares' ordinal='6' />
+              <column datatype='integer' name='Value($)' ordinal='7' />
+              <column datatype='integer' name='Total Shares' ordinal='8' />
+              <column datatype='string' name='Filing' ordinal='9' />
+              <column datatype='string' name='Type' ordinal='10' />
+              <column datatype='real' name='currentprice' ordinal='11' />
+              <column datatype='real' name='movingaverage' ordinal='12' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Ticker' ordinal='0' />
+              <column datatype='string' name='0' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Symbol]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Symbol</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Owner]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Owner</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Relationship]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Relationship</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Cost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Shares]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias># Shares</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value($)]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Value($)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Shares]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Total Shares</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filing]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Filing</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>currentprice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[currentprice]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>currentprice</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movingaverage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[movingaverage]</local-name>
+            <parent-name>[InsiderPrices.csv]</parent-name>
+            <remote-alias>movingaverage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ticker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ticker]</local-name>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias>Ticker</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[0]</local-name>
+            <parent-name>[StockSectors.csv]</parent-name>
+            <remote-alias>0</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='InsiderPrices.csv' datatype='table' name='[__tableau_internal_object_id__].[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]' role='measure' type='quantitative' />
+      <column caption='Currentprice' datatype='real' name='[currentprice]' role='measure' type='quantitative' />
+      <column caption='Movingaverage' datatype='real' name='[movingaverage]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Tong/Desktop/insiderstocks/StockSectors+.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='05/10/2020 05:57:17 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='StockSectors+' increment-value='%null%' refresh-type='create' rows-inserted='602' timestamp-start='2020-05-10 17:57:17.577' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Symbol</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Symbol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Symbol</remote-alias>
+              <ordinal>0</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>286</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner</remote-alias>
+              <ordinal>1</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>421</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relationship</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Relationship]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relationship</remote-alias>
+              <ordinal>2</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>150</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cost</remote-alias>
+              <ordinal>4</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>494</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name># Shares</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[# Shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias># Shares</remote-alias>
+              <ordinal>5</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value($)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Value($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value($)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>564</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Shares</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Shares</remote-alias>
+              <ordinal>7</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>548</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Filing</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Filing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Filing</remote-alias>
+              <ordinal>8</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>329</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>9</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>currentprice</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[currentprice]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>currentprice</remote-alias>
+              <ordinal>10</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>280</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>movingaverage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[movingaverage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>movingaverage</remote-alias>
+              <ordinal>11</ordinal>
+              <family>InsiderPrices.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>284</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ticker</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ticker]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ticker</remote-alias>
+              <ordinal>12</ordinal>
+              <family>StockSectors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>224</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>0</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[0]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>0</remote-alias>
+              <ordinal>13</ordinal>
+              <family>StockSectors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='InsiderPrices.csv' id='InsiderPrices.csv_FCB4F21A3FBF4D8A9940E8E41FE82406'>
+            <properties context=''>
+              <relation join='left' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[InsiderPrices.csv].[Symbol]' />
+                    <expression op='[StockSectors.csv].[Ticker]' />
+                  </expression>
+                </clause>
+                <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='InsiderPrices.csv' table='[InsiderPrices#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Symbol' ordinal='1' />
+                    <column datatype='string' name='Owner' ordinal='2' />
+                    <column datatype='string' name='Relationship' ordinal='3' />
+                    <column datatype='date' name='Date' ordinal='4' />
+                    <column datatype='real' name='Cost' ordinal='5' />
+                    <column datatype='integer' name='# Shares' ordinal='6' />
+                    <column datatype='integer' name='Value($)' ordinal='7' />
+                    <column datatype='integer' name='Total Shares' ordinal='8' />
+                    <column datatype='string' name='Filing' ordinal='9' />
+                    <column datatype='string' name='Type' ordinal='10' />
+                    <column datatype='real' name='currentprice' ordinal='11' />
+                    <column datatype='real' name='movingaverage' ordinal='12' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0vfh7bd0ky2wah1gd36d31dapo9n' name='StockSectors.csv' table='[StockSectors#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='string' name='Ticker' ordinal='0' />
+                    <column datatype='string' name='0' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1mjwmml0k1157j11irurd069gabm'>
+      <datasources>
+        <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+        <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+        <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]'>
+        <groupfilter function='level-members' level='[none:Symbol:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='See Chart' name='[Action1]'>
+      <activation type='on-select' />
+      <source dashboard='Dashboard 1 (3)' type='sheet' worksheet='Stock HeatMap' />
+      <link caption='' expression='&lt;[Ticker URL (copy)_978688543499317248]&gt;'>
+        <url-action-type>specific-zone</url-action-type>
+        <url-action-target>18</url-action-target>
+      </link>
+    </action>
+    <action caption='Filter 1 (generated) 1 1' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1 (3)' type='sheet' worksheet='Sector TreeMap' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1 (3)' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+    </datasources>
+    <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+      <column caption='Ticker URL (copy)' datatype='string' name='[Ticker URL (copy)_978688543499317248]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_75153868065382400]) THEN &apos;  &apos;&#13;&#10;ELSE &quot;https://&quot;+STR([Calculation_75153868065382400])&#13;&#10;END' />
+      </column>
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Sector TreeMap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+            <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+            <column caption='Total Transaction Values' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Value($)]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value($)]' derivation='Sum' name='[sum:Value($):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:0:nk]' />
+              <groupfilter function='empty-level' member='[none:0:nk]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='766' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' />
+              <color column='[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]' />
+              <text column='[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]' />
+              <text column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{35FF7E16-EBD2-4704-957C-7122415FBC5F}' />
+    </worksheet>
+    <worksheet name='Stock HeatMap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+            <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column caption='Ticker URL' datatype='string' name='[Calculation_75153868065382400]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;sg.finance.yahoo.com/chart/&quot; + [Symbol]' />
+            </column>
+            <column caption='Total Value Lookup' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Calculation_75153868077248513]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='ZN(LOOKUP(sum([Value($)]),0))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Date of Transaction' datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+            <column caption='Ticker URL (copy)' datatype='string' name='[Ticker URL (copy)_978688543499317248]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([Calculation_75153868065382400]) THEN &apos;  &apos;&#13;&#10;ELSE &quot;https://&quot;+STR([Calculation_75153868065382400])&#13;&#10;END' />
+            </column>
+            <column caption='Transaction Type' datatype='string' name='[Type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;buy&quot;' value='Buy' />
+                <alias key='&quot;sell&quot;' value='Sell' />
+              </aliases>
+            </column>
+            <column caption='Total Transaction Values' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Value($)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_75153868065382400]' derivation='Attribute' name='[attr:Calculation_75153868065382400:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ticker URL (copy)_978688543499317248]' derivation='Attribute' name='[attr:Ticker URL (copy)_978688543499317248:nk]' pivot='key' type='nominal' />
+            <column-instance column='[currentprice]' derivation='Avg' name='[avg:currentprice:qk]' pivot='key' type='quantitative' />
+            <column caption='Current Price' datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[currentprice]' role='measure' type='quantitative' />
+            <column caption='Moving Average' datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[movingaverage]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value($)]' derivation='Sum' name='[sum:Value($):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[movingaverage]' derivation='Sum' name='[sum:movingaverage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_75153868077248513]' derivation='User' name='[usr:Calculation_75153868077248513:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]'>
+            <groupfilter function='level-members' level='[0]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[attr:Calculation_75153868065382400:nk]'>
+            <groupfilter function='level-members' level='[attr:Calculation_75153868065382400:nk]' />
+          </filter>
+          <filter class='relative-date' column='[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]' first-period='-1' include-future='true' include-null='false' last-period='0' period-type-v2='week' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' shelf='columns' />
+          </shelf-sorts>
+          <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]' shelf='rows' />
+          </_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[attr:Calculation_75153868065382400:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]' value='37' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]' value='Date of Transaction'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Date of Transaction</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]' value='Ticker'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Ticker</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' />
+              <lod column='[federated.1mjwmml0k1157j11irurd069gabm].[attr:Calculation_75153868065382400:nk]' />
+              <lod column='[federated.1mjwmml0k1157j11irurd069gabm].[attr:Ticker URL (copy)_978688543499317248:nk]' />
+              <tooltip column='[federated.1mjwmml0k1157j11irurd069gabm].[avg:currentprice:qk]' />
+              <tooltip column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:movingaverage:qk]' />
+              <text column='[federated.1mjwmml0k1157j11irurd069gabm].[usr:Calculation_75153868077248513:qk:2]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontalignment='1' fontname='Arial'><![CDATA[Current Price <[federated.1mjwmml0k1157j11irurd069gabm].[avg:currentprice:qk]>]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontname='Arial'><![CDATA[Moving Average <[federated.1mjwmml0k1157j11irurd069gabm].[sum:movingaverage:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</rows>
+        <cols>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</cols>
+      </table>
+      <simple-id uuid='{6A3F3853-6C18-4CD4-8769-FD8B85232EF1}' />
+    </worksheet>
+    <worksheet name='Total Buy Value'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+            <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+            <column caption='Transaction Type' datatype='string' name='[Type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;buy&quot;' value='Buy' />
+                <alias key='&quot;sell&quot;' value='Sell' />
+              </aliases>
+            </column>
+            <column caption='Total Transaction Values' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Value($)]' role='measure' type='quantitative' />
+            <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value($)]' derivation='Sum' name='[sum:Value($):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]'>
+            <groupfilter function='level-members' level='[0]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]'>
+            <groupfilter function='member' level='[none:Type:nk]' member='&quot;buy&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#333333' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#59a14f' fontname='Arial' fontsize='18'><![CDATA[<[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#59a14f' fontname='Arial'>Total Buy Transactions Value</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows onTop='true' total='true' />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{8693C45B-C3A2-439F-9A03-4D610193731A}' />
+    </worksheet>
+    <worksheet name='Total Sell Value'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+            <column caption='Sector' datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+            <column caption='Transaction Type' datatype='string' name='[Type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;buy&quot;' value='Buy' />
+                <alias key='&quot;sell&quot;' value='Sell' />
+              </aliases>
+            </column>
+            <column caption='Total Transaction Values' datatype='integer' default-format='c&quot;$&quot;#,##0,,M;(&quot;$&quot;#,##0,,M)' name='[Value($)]' role='measure' type='quantitative' />
+            <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value($)]' derivation='Sum' name='[sum:Value($):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]'>
+            <groupfilter function='level-members' level='[0]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]'>
+            <groupfilter function='member' level='[none:Type:nk]' member='&quot;sell&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[Action (Sector)]</column>
+            <column>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#e15759' fontname='Arial' fontsize='18'><![CDATA[<[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#e15759' fontname='Arial'>Total Sell Transactions Value</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows onTop='true' total='true' />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{CACC5520-9885-499D-9A75-3E43A1DFD4B4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1 (3)'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='InsiderPrices' name='federated.1mjwmml0k1157j11irurd069gabm' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1mjwmml0k1157j11irurd069gabm'>
+        <column caption='Date of Transaction' datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column caption='Ticker' datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+        <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98712' id='24' param='horz' w='99176' x='412' y='644'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98712' id='17' param='horz' w='99176' x='412' y='644'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98712' id='15' w='99176' x='412' y='644'>
+                <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='91972' id='12' param='horz' w='99176' x='412' y='7384'>
+                  <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='91972' id='10' w='99176' x='412' y='7384'>
+                    <zone h='7100' id='3' name='Total Buy Value' show-title='false' w='49609' x='49979' y='7384'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='7100' id='8' name='Total Sell Value' show-title='false' w='49567' x='412' y='7384'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='70138' id='9' name='Sector TreeMap' show-title='false' w='53811' x='412' y='29218'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='14734' id='14' name='Stock HeatMap' show-title='false' w='99176' x='412' y='14484'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone _.fcp.SetMembershipControl.false...type='web' _.fcp.SetMembershipControl.true...type-v2='web' forceUpdate='' h='70138' id='18' param='https://sg.finance.yahoo.com/chart/REGN' w='45365' x='54223' y='29218'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='6740' id='13' w='50279' x='412' y='644'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontname='Arial Black' fontsize='14'>Insider Transactions</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='6740' id='26' param='horz' w='13103' x='86485' y='644'>
+                  <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5636' id='25' mode='checkdropdown' name='Stock HeatMap' param='[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]' values='database' w='13103' x='86485' y='644'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='empty' _.fcp.SetMembershipControl.true...type-v2='empty' h='6740' id='27' w='18504' x='50691' y='644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='6740' id='28' name='Stock HeatMap' param='[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]' values='database' w='17290' x='69195' y='644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='86' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98712' id='85' param='vert' w='99176' x='412' y='644'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='6740' id='13' w='50279' x='412' y='644'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontname='Arial Black' fontsize='14'>Insider Transactions</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='49' h='7100' id='8' is-fixed='true' name='Total Sell Value' show-title='false' w='49567' x='412' y='7384'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='49' h='7100' id='3' is-fixed='true' name='Total Buy Value' show-title='false' w='49609' x='49979' y='7384'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5636' id='25' mode='checkdropdown' name='Stock HeatMap' param='[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]' values='database' w='13103' x='86485' y='644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='6740' id='28' name='Stock HeatMap' param='[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]' values='database' w='17290' x='69195' y='644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='110' h='14734' id='14' is-fixed='true' name='Stock HeatMap' show-title='false' w='99176' x='412' y='14484'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='70138' id='9' is-fixed='true' name='Sector TreeMap' show-title='false' w='53811' x='412' y='29218'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='web' _.fcp.SetMembershipControl.true...type-v2='web' fixed-size='280' forceUpdate='' h='70138' id='18' is-fixed='true' param='https://sg.finance.yahoo.com/chart/REGN' w='45365' x='54223' y='29218'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{794361C0-4232-4DA4-8AC4-D961924169B7}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' name='Total Buy Value'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E6DF2826-A142-43EF-AECC-07B8206B4465}' />
+    </window>
+    <window class='worksheet' name='Total Sell Value'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2687B38C-8FC7-4783-891C-2ED24941A24A}' />
+    </window>
+    <window class='worksheet' name='Sector TreeMap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:0:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E565184A-14D3-4658-8E52-B0D089CFB088}' />
+    </window>
+    <window class='worksheet' name='Stock HeatMap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1mjwmml0k1157j11irurd069gabm].[sum:Value($):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[attr:Calculation_75153868065382400:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Calculation_75153868065382400:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Date:qk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Symbol:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Ticker URL (copy)_978688543499317248:nk]</field>
+            <field>[federated.1mjwmml0k1157j11irurd069gabm].[none:Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{75994F90-D5D2-4210-ABD8-6CE6F6A05075}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1 (3)'>
+      <viewpoints>
+        <viewpoint name='Sector TreeMap' />
+        <viewpoint name='Stock HeatMap' />
+        <viewpoint name='Total Buy Value'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Sell Value'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <simple-id uuid='{BC03912F-06C0-4A76-8F92-700902F01833}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1 (3)' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sector TreeMap' width='192'>
+      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
+      EQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='98' name='Stock HeatMap' width='192'>
+      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
+      81Em6w34DgcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Total Buy Value' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACwElEQVR4nO3WPWqVYRRG0fcLFwPahAtiEaOJASEggopYBByEjfOzcgaCIxCUIIqF4A+S
+      eLFRMVZC8HMUciF7rRE8zeacaZ7neUDUxroHwDoJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA
+      0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBtse4B8D8d//wyPn3/MKZpGg+uH47NxeaY53msfp2M7a0dAXC+TdM0jk5ejpuXD8bb
+      1evx+cfHcXDl1nh69GQ8uv3YC8T5dnXr2thd3hh3d+6PV8cvxuHew/Hu25uxt9wfv/+cCoDz
+      7+KFS2OxsRi7y/3x/P2zcWf73jj7ezZWp1/HNM/zvO6BsC4uAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgT
+      AGkCIO0fNwsz2R3SBQ0AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Total Sell Value' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACq0lEQVR4nO3YQUqVARhG4e+aZEU1KIQaOrQW4aTGtU8hWkFuoJzVxKkliBRmYKHytwq5
+      4HmeFbyTM3lXy7IsA1Eb6x4A6yQA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgLTNdQ+A
+      23Tz+2IuDw9nZubB61ezub09MzNX33/M5ssXAuCOW81cn5zMzcXF3Hv+bP58Opit3d0539+f
+      p+/fzWpZlmXdG+E2/f36ba7Pzubq+HievH0z5x8+zmys5vHengC4+/4dHc3Nz1+zevRwLj9/
+      mfs7O3N9ejobW1sCoM0LRJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASPsPmbY9ASSk278AAAAASUVO
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
